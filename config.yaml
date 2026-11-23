@@ -1,0 +1,83 @@
+# Relative paths are resolved from the repository root at runtime.
+# Estimator names are registry keys, not filesystem paths.
+
+project:
+  name: cross-layer-5g-anomaly
+  seed: 42
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  sample: data/sample
+  artifacts: artifacts
+  logs: artifacts/logs
+
+schema:
+  timestamp_column: timestamp
+  entity_column: entity_id
+  layer_column: layer
+  label_column: anomaly_type
+  required_columns:
+    - timestamp
+    - entity_id
+    - layer
+  numeric_columns: []
+  layers:
+    - phy
+    - mac
+    - rlc
+    - pdcp
+    - sdap
+    - rrc
+    - nas
+    - ngap
+    - transport
+    - ran_du
+    - ran_cu
+    - core_upf
+  anomaly_types:
+    - Normal
+    - Jamming
+    - Co-Channel Interference (Mild)
+    - Buffer Overflow (Gradual Buildup)
+    - Co-Channel Interference (Severe)
+    - Antenna Failure
+    - Faulty RF Filters (Temporal)
+    - High Network Congestion (Gradual Buildup)
+    - Doppler Shift (Severe)
+    - Faulty Handover Algorithm (Too Frequent)
+    - Resource Allocation Bugs
+    - High Network Congestion (Sudden Spike)
+
+split:
+  strategy: source_file_grouped
+  validation_fraction: 0.1
+  test_fraction: 0.2
+
+inference:
+  detection_artifact: artifacts/detection.joblib
+  preprocessing_artifact: artifacts/preprocessing.joblib
+  feature_config_artifact: artifacts/feature_config.json
+  metadata_artifact: artifacts/model_metadata.json
+  temporal_localization_artifact: artifacts/temporal_localization.joblib
+  attribution_artifact: artifacts/attribution.joblib
+  attribution_top_k: 5
+
+localization:
+  enabled: false
+  estimator: null
+  target: layer
+  artifact: artifacts/localization.joblib
+
+diagnosis:
+  enabled: false
+  estimator: null
+  target: anomaly_type
+  artifact: artifacts/diagnosis.joblib
+
+api:
+  host: 127.0.0.1
+  port: 8000
+
+logging:
+  level: INFO

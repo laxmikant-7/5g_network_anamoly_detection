@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "dataset_revision": "1b3a88a440f4922edfcd1e230e42c003c0e13bdf",
+  "seed": 42,
+  "test_partition_loaded": true,
+  "test_partition_historical": true,
+  "selected_threshold": 0.42,
+  "test_anomaly_samples": 339
+}

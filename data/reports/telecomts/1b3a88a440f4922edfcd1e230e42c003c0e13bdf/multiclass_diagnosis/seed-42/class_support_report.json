@@ -1,0 +1,57 @@
+{
+  "Jamming": {
+    "train": 93,
+    "validation": 92,
+    "test": 94
+  },
+  "Co-Channel Interference (Mild)": {
+    "train": 100,
+    "validation": 5,
+    "test": 41
+  },
+  "Buffer Overflow (Gradual Buildup)": {
+    "train": 101,
+    "validation": 16,
+    "test": 21
+  },
+  "Co-Channel Interference (Severe)": {
+    "train": 49,
+    "validation": 7,
+    "test": 58
+  },
+  "Antenna Failure": {
+    "train": 67,
+    "validation": 7,
+    "test": 33
+  },
+  "Faulty RF Filters (Temporal)": {
+    "train": 66,
+    "validation": 8,
+    "test": 26
+  },
+  "High Network Congestion (Gradual Buildup)": {
+    "train": 33,
+    "validation": 49,
+    "test": 11
+  },
+  "Doppler Shift (Severe)": {
+    "train": 50,
+    "validation": 18,
+    "test": 18
+  },
+  "Faulty Handover Algorithm (Too Frequent)": {
+    "train": 48,
+    "validation": 3,
+    "test": 13
+  },
+  "Resource Allocation Bugs": {
+    "train": 39,
+    "validation": 11,
+    "test": 10
+  },
+  "High Network Congestion (Sudden Spike)": {
+    "train": 23,
+    "validation": 11,
+    "test": 14
+  }
+}

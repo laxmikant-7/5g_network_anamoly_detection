@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cross-layer-5g-anomaly"
+version = "0.1.0"
+description = "Research scaffold for cross-layer 5G anomaly localization and anomaly-type diagnosis."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy==2.3.3",
+    "pandas==2.3.2",
+    "scikit-learn==1.9.1",
+    "matplotlib==3.11.2",
+    "seaborn==0.13.2",
+    "plotly==7.1.0",
+    "fastapi==0.115.14",
+    "uvicorn==0.34.3",
+    "streamlit==1.49.1",
+    "shap==0.54.1",
+    "joblib==1.5.2",
+    "PyYAML==6.0.2",
+    "httpx==0.28.1",
+]
+
+[project.optional-dependencies]
+training = ["xgboost==3.4.1"]
+test = ["pytest==9.2.0"]
+
+[project.scripts]
+cl5g-train = "cl5g.pipeline.train:main"
+cl5g-train-diagnosis = "cl5g.pipeline.train_diagnosis:main"
+cl5g-infer = "cl5g.pipeline.infer:main"
+cl5g-ingest-telecomts = "cl5g.data.telecomts:main"
+cl5g-telecomts-eda = "cl5g.data.telecomts_eda:main"
+cl5g-telecomts-features = "cl5g.features.extraction:main"
+cl5g-split-telecomts = "cl5g.data.split:main"
+cl5g-explainability = "cl5g.evaluation.attribution:main"
+cl5g-localize-telecomts = "cl5g.evaluation.temporal_localization:main"
+
+[tool.setuptools]
+packages = [
+    "cl5g",
+    "cl5g.common",
+    "cl5g.data",
+    "cl5g.features",
+    "cl5g.models",
+    "cl5g.evaluation",
+    "cl5g.pipeline",
+    "backend",
+    "frontend",
+]
+
+[tool.setuptools.package-dir]
+cl5g = "src"
+backend = "backend"
+frontend = "frontend"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

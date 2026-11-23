@@ -1,0 +1,93 @@
+{
+  "dataset_revision": "1b3a88a440f4922edfcd1e230e42c003c0e13bdf",
+  "seed": 42,
+  "explanation_data_partition": "validation only",
+  "test_partition_used": false,
+  "aggregation_method": "KPI importance is the sum of absolute SHAP contributions for all engineered features mapped to that KPI. Signed contributions are also summed separately to show net direction.",
+  "interpretation": "Feature importance and SHAP values describe model associations; they do not establish physical causality.",
+  "permutation_importance": {
+    "repeats": 3,
+    "max_samples": 256,
+    "binary_scoring": "average precision",
+    "diagnosis_scoring": "macro F1 over validation-supported classes",
+    "kpi_aggregation": "sum positive feature-level mean score decreases; negative estimates are retained in feature-level CSV but contribute zero to KPI importance"
+  },
+  "models": {
+    "binary_detection": {
+      "validation_sample_count": 256,
+      "feature_count": 250,
+      "kpi_count": 18,
+      "permutation_repeats": 3,
+      "importance_method": "mean absolute TreeSHAP by output",
+      "sample_explanation_top_kpis": [
+        {
+          "kpi": "RSRP",
+          "importance": 0.8670188152270032,
+          "signed_contribution": 0.8666243571589153
+        },
+        {
+          "kpi": "PRB_Utilization_DL",
+          "importance": 0.010203698885269981,
+          "signed_contribution": -0.00949925331143982
+        },
+        {
+          "kpi": "UL_NumberOfPackets",
+          "importance": 0.010101888452525626,
+          "signed_contribution": -0.010049547220045528
+        },
+        {
+          "kpi": "TX_Bytes",
+          "importance": 0.007715064408248497,
+          "signed_contribution": -0.004200793074344922
+        },
+        {
+          "kpi": "DL_NumberOfPackets",
+          "importance": 0.006389538649247659,
+          "signed_contribution": -0.006178349661113589
+        }
+      ],
+      "sample_feature_count": 250,
+      "report_directory": "C:\\Users\\laxmi\\Projects\\cross-layer-5g-anomaly\\data\\reports\\telecomts\\1b3a88a440f4922edfcd1e230e42c003c0e13bdf\\explainability\\seed-42\\binary_detection"
+    },
+    "multiclass_diagnosis": {
+      "validation_sample_count": 227,
+      "feature_count": 250,
+      "kpi_count": 18,
+      "permutation_repeats": 3,
+      "importance_method": "mean absolute TreeSHAP by output",
+      "sample_explanation_top_kpis": [
+        {
+          "kpi": "RSRP",
+          "importance": 0.5611462974137638,
+          "signed_contribution": 0.5611183701767692
+        },
+        {
+          "kpi": "DL_Protocol",
+          "importance": 0.028019895532898822,
+          "signed_contribution": 0.027517036101051388
+        },
+        {
+          "kpi": "TX_Bytes",
+          "importance": 0.021422468015174875,
+          "signed_contribution": -0.019395047374866886
+        },
+        {
+          "kpi": "UL_MCS",
+          "importance": 0.009978933928314037,
+          "signed_contribution": -0.0039029066503293015
+        },
+        {
+          "kpi": "DL_MCS",
+          "importance": 0.009870628429395258,
+          "signed_contribution": 0.009870628429395258
+        }
+      ],
+      "sample_feature_count": 250,
+      "report_directory": "C:\\Users\\laxmi\\Projects\\cross-layer-5g-anomaly\\data\\reports\\telecomts\\1b3a88a440f4922edfcd1e230e42c003c0e13bdf\\explainability\\seed-42\\multiclass_diagnosis"
+    }
+  },
+  "artifacts": {
+    "attribution_adapter": "C:\\Users\\laxmi\\Projects\\cross-layer-5g-anomaly\\artifacts\\attribution.joblib",
+    "sample_explanation": "C:\\Users\\laxmi\\Projects\\cross-layer-5g-anomaly\\data\\reports\\telecomts\\1b3a88a440f4922edfcd1e230e42c003c0e13bdf\\explainability\\seed-42\\sample_prediction_explanation.json"
+  }
+}

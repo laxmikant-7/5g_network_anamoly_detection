@@ -1,0 +1,354 @@
+{
+  "sample_id": "telecomts:6e35f92ff215e466534e7fe8f629edb6dd362b235876a87127bc192aea302b80",
+  "true_label": "Jamming",
+  "binary_detection": {
+    "model_kind": "binary_detection",
+    "method": "TreeSHAP",
+    "predicted_class": 1,
+    "prediction_probability": 0.8600666666666668,
+    "baseline_value": 0.02987481597144771,
+    "output_value": 0.8600666666670529,
+    "aggregation_method": "KPI importance is the sum of absolute SHAP contributions for all engineered features mapped to that KPI. Signed contributions are also summed separately to show net direction.",
+    "interpretation": "Feature importance and SHAP values describe model associations; they do not establish physical causality.",
+    "top_features": [
+      {
+        "feature": "RSRP__first_half_mean",
+        "value": -75.14546874999999,
+        "contribution": 0.14525635069692708,
+        "absolute_contribution": 0.14525635069692708,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__mean",
+        "value": -75.17431255004576,
+        "contribution": 0.13024864502252784,
+        "absolute_contribution": 0.13024864502252784,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__min",
+        "value": -77.0,
+        "contribution": 0.12806122284149227,
+        "absolute_contribution": 0.12806122284149227,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__last",
+        "value": -76.0,
+        "contribution": 0.10321727262750231,
+        "absolute_contribution": 0.10321727262750231,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__root_mean_square",
+        "value": 75.17549235092227,
+        "contribution": 0.09167888846148148,
+        "absolute_contribution": 0.09167888846148148,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__median",
+        "value": -75.0,
+        "contribution": 0.0805547048528535,
+        "absolute_contribution": 0.0805547048528535,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__first",
+        "value": -75.0,
+        "contribution": 0.07884310078093976,
+        "absolute_contribution": 0.07884310078093976,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__second_half_mean",
+        "value": -75.20315635009152,
+        "contribution": 0.07172819781397276,
+        "absolute_contribution": 0.07172819781397276,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__max",
+        "value": -75.0,
+        "contribution": 0.03718712230131789,
+        "absolute_contribution": 0.03718712230131789,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "DL_Protocol__frequency__<empty>",
+        "value": 0.9765625,
+        "contribution": -0.0037852542390265096,
+        "absolute_contribution": 0.0037852542390265096,
+        "source_kpi": "DL_Protocol"
+      }
+    ],
+    "top_kpis": [
+      {
+        "kpi": "RSRP",
+        "importance": 0.8670188152270032,
+        "signed_contribution": 0.8666243571589153
+      },
+      {
+        "kpi": "PRB_Utilization_DL",
+        "importance": 0.010203698885269981,
+        "signed_contribution": -0.00949925331143982
+      },
+      {
+        "kpi": "UL_NumberOfPackets",
+        "importance": 0.010101888452525626,
+        "signed_contribution": -0.010049547220045528
+      },
+      {
+        "kpi": "TX_Bytes",
+        "importance": 0.007715064408248497,
+        "signed_contribution": -0.004200793074344922
+      },
+      {
+        "kpi": "DL_NumberOfPackets",
+        "importance": 0.006389538649247659,
+        "signed_contribution": -0.006178349661113589
+      },
+      {
+        "kpi": "DL_Protocol",
+        "importance": 0.0038996899683345593,
+        "signed_contribution": -0.0038703459773467533
+      },
+      {
+        "kpi": "UL_BLER",
+        "importance": 0.0036213273638345807,
+        "signed_contribution": -0.0013393479619666006
+      },
+      {
+        "kpi": "UL_SNR",
+        "importance": 0.003543051481380176,
+        "signed_contribution": -0.0019991183622352767
+      },
+      {
+        "kpi": "PRBs_DL_Current",
+        "importance": 0.0027176521866838616,
+        "signed_contribution": -0.0010975143772150849
+      },
+      {
+        "kpi": "UL_NPRB",
+        "importance": 0.002596109254076508,
+        "signed_contribution": -0.0020692550653262673
+      },
+      {
+        "kpi": "PRBs_UL_Current",
+        "importance": 0.002212299806329568,
+        "signed_contribution": 0.0011949213191680063
+      },
+      {
+        "kpi": "DL_BLER",
+        "importance": 0.001452170300570755,
+        "signed_contribution": 0.001452170300570755
+      },
+      {
+        "kpi": "RX_Bytes",
+        "importance": 0.0013496045462229374,
+        "signed_contribution": 0.0004421552582898756
+      },
+      {
+        "kpi": "PRB_Utilization_UL",
+        "importance": 0.0009114376120640578,
+        "signed_contribution": -0.0006750498897310971
+      },
+      {
+        "kpi": "DL_MCS",
+        "importance": 0.0008692760951392739,
+        "signed_contribution": 0.0006245480666513527
+      },
+      {
+        "kpi": "UL_MCS",
+        "importance": 0.0006996034357698698,
+        "signed_contribution": 0.0005139429177271303
+      },
+      {
+        "kpi": "Estimated_UL_Buffer",
+        "importance": 0.0006723224059552942,
+        "signed_contribution": 0.0004977524571224695
+      },
+      {
+        "kpi": "UL_Protocol",
+        "importance": 0.0002677995325520272,
+        "signed_contribution": -0.00017942188207467917
+      }
+    ]
+  },
+  "multiclass_diagnosis": {
+    "model_kind": "multiclass_diagnosis",
+    "method": "TreeSHAP",
+    "predicted_class": "Jamming",
+    "prediction_probability": 0.6382777777777778,
+    "baseline_value": 0.09034877927254599,
+    "output_value": 0.6382777777777777,
+    "aggregation_method": "KPI importance is the sum of absolute SHAP contributions for all engineered features mapped to that KPI. Signed contributions are also summed separately to show net direction.",
+    "interpretation": "Feature importance and SHAP values describe model associations; they do not establish physical causality.",
+    "top_features": [
+      {
+        "feature": "RSRP__max",
+        "value": -75.0,
+        "contribution": 0.0833545869466964,
+        "absolute_contribution": 0.0833545869466964,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__root_mean_square",
+        "value": 75.17549235092227,
+        "contribution": 0.07313427144413424,
+        "absolute_contribution": 0.07313427144413424,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__min",
+        "value": -77.0,
+        "contribution": 0.07230660542187355,
+        "absolute_contribution": 0.07230660542187355,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__last",
+        "value": -76.0,
+        "contribution": 0.06194320045578888,
+        "absolute_contribution": 0.06194320045578888,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__first_half_mean",
+        "value": -75.14546874999999,
+        "contribution": 0.06084126548802703,
+        "absolute_contribution": 0.06084126548802703,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__second_half_mean",
+        "value": -75.20315635009152,
+        "contribution": 0.05387874408246087,
+        "absolute_contribution": 0.05387874408246087,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__first",
+        "value": -75.0,
+        "contribution": 0.050837945710319035,
+        "absolute_contribution": 0.050837945710319035,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__mean",
+        "value": -75.17431255004576,
+        "contribution": 0.049604547749997396,
+        "absolute_contribution": 0.049604547749997396,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "RSRP__median",
+        "value": -75.0,
+        "contribution": 0.04889428580879328,
+        "absolute_contribution": 0.04889428580879328,
+        "source_kpi": "RSRP"
+      },
+      {
+        "feature": "DL_Protocol__frequency__<empty>",
+        "value": 0.9765625,
+        "contribution": 0.027469962889387523,
+        "absolute_contribution": 0.027469962889387523,
+        "source_kpi": "DL_Protocol"
+      }
+    ],
+    "top_kpis": [
+      {
+        "kpi": "RSRP",
+        "importance": 0.5611462974137638,
+        "signed_contribution": 0.5611183701767692
+      },
+      {
+        "kpi": "DL_Protocol",
+        "importance": 0.028019895532898822,
+        "signed_contribution": 0.027517036101051388
+      },
+      {
+        "kpi": "TX_Bytes",
+        "importance": 0.021422468015174875,
+        "signed_contribution": -0.019395047374866886
+      },
+      {
+        "kpi": "UL_MCS",
+        "importance": 0.009978933928314037,
+        "signed_contribution": -0.0039029066503293015
+      },
+      {
+        "kpi": "DL_MCS",
+        "importance": 0.009870628429395258,
+        "signed_contribution": 0.009870628429395258
+      },
+      {
+        "kpi": "UL_NumberOfPackets",
+        "importance": 0.00933817804086566,
+        "signed_contribution": -0.009021123251796666
+      },
+      {
+        "kpi": "PRBs_UL_Current",
+        "importance": 0.008473059176293148,
+        "signed_contribution": -0.008473059176293148
+      },
+      {
+        "kpi": "UL_SNR",
+        "importance": 0.006590076659077016,
+        "signed_contribution": -0.0008121383251262674
+      },
+      {
+        "kpi": "RX_Bytes",
+        "importance": 0.006140769672123628,
+        "signed_contribution": -0.006066518679887757
+      },
+      {
+        "kpi": "UL_NPRB",
+        "importance": 0.0047147883206223335,
+        "signed_contribution": -0.0028290812556857827
+      },
+      {
+        "kpi": "Estimated_UL_Buffer",
+        "importance": 0.003370181147489637,
+        "signed_contribution": -0.00297708849478521
+      },
+      {
+        "kpi": "DL_BLER",
+        "importance": 0.0026223473127410715,
+        "signed_contribution": 0.0018456127716287305
+      },
+      {
+        "kpi": "PRB_Utilization_UL",
+        "importance": 0.002378017582142079,
+        "signed_contribution": 0.000422734900017257
+      },
+      {
+        "kpi": "PRBs_DL_Current",
+        "importance": 0.0020572042114083535,
+        "signed_contribution": 0.0004355285311972169
+      },
+      {
+        "kpi": "UL_BLER",
+        "importance": 0.0016796900367108238,
+        "signed_contribution": 0.0005728257823704694
+      },
+      {
+        "kpi": "DL_NumberOfPackets",
+        "importance": 0.0005939871112919566,
+        "signed_contribution": -0.0005109299858111238
+      },
+      {
+        "kpi": "PRB_Utilization_DL",
+        "importance": 0.0003539364467648894,
+        "signed_contribution": 0.0001354871554728057
+      },
+      {
+        "kpi": "UL_Protocol",
+        "importance": 1.8503828244889985e-05,
+        "signed_contribution": -1.3321480886038357e-06
+      }
+    ]
+  },
+  "evaluation_metric": false,
+  "interpretation": "Feature importance and SHAP values describe model associations; they do not establish physical causality."
+}

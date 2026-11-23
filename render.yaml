@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: cross-layer-5g-anomaly-api
+    runtime: python
+    plan: starter
+    buildCommand: python -m pip install -r requirements.txt
+    startCommand: python -m backend.main
+    disk:
+      name: cl5g-model-artifacts
+      mountPath: /opt/render/project/src/artifacts
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.3
+      - key: CL5G_ENV
+        value: production
+      - key: CL5G_API_HOST
+        value: 0.0.0.0
+      - key: CL5G_API_KEY
+        sync: false
+      - key: CL5G_CORS_ORIGINS
+        sync: false

@@ -1,0 +1,199 @@
+{
+  "dataset_revision": "1b3a88a440f4922edfcd1e230e42c003c0e13bdf",
+  "seed": 42,
+  "sampling_rate_hz": [
+    10.0
+  ],
+  "seconds_per_timestep": 0.1,
+  "annotation_audit": {
+    "sample_specific_anomaly_intervals": true,
+    "normal_samples_with_valid_empty_interval_annotations": 30765,
+    "anomalous_samples_with_valid_intervals": 1235,
+    "missing_or_invalid_intervals": 0,
+    "anomalous_samples_with_affected_kpi_annotations": 1235,
+    "unique_affected_kpis": 16,
+    "affected_kpi_sample_counts": {
+      "DL_BLER": 1149,
+      "DL_MCS": 193,
+      "DL_NumberOfPackets": 564,
+      "Estimated_UL_Buffer": 450,
+      "PRB_Utilization_DL": 699,
+      "PRB_Utilization_UL": 699,
+      "PRBs_DL_Current": 167,
+      "PRBs_UL_Current": 167,
+      "RSRP": 617,
+      "RX_Bytes": 1235,
+      "TX_Bytes": 1235,
+      "UL_BLER": 1149,
+      "UL_MCS": 472,
+      "UL_NPRB": 785,
+      "UL_NumberOfPackets": 564,
+      "UL_SNR": 617
+    },
+    "sampling_rates_hz": [
+      10.0
+    ],
+    "interval_length_steps": {
+      "minimum": 1,
+      "median": 121.0,
+      "maximum": 128,
+      "full_sequence_count": 593,
+      "partial_interval_count": 642
+    }
+  },
+  "partition_summary": {
+    "train": {
+      "sample_count": 22415,
+      "source_file_count": 24,
+      "anomaly_sample_count": 669,
+      "normal_sample_count": 21746,
+      "label_distribution": {
+        "Antenna Failure": 67,
+        "Buffer Overflow (Gradual Buildup)": 101,
+        "Co-Channel Interference (Mild)": 100,
+        "Co-Channel Interference (Severe)": 49,
+        "Doppler Shift (Severe)": 50,
+        "Faulty Handover Algorithm (Too Frequent)": 48,
+        "Faulty RF Filters (Temporal)": 66,
+        "High Network Congestion (Gradual Buildup)": 33,
+        "High Network Congestion (Sudden Spike)": 23,
+        "Jamming": 93,
+        "Normal": 21746,
+        "Resource Allocation Bugs": 39
+      }
+    },
+    "validation": {
+      "sample_count": 3233,
+      "source_file_count": 4,
+      "anomaly_sample_count": 227,
+      "normal_sample_count": 3006,
+      "label_distribution": {
+        "Antenna Failure": 7,
+        "Buffer Overflow (Gradual Buildup)": 16,
+        "Co-Channel Interference (Mild)": 5,
+        "Co-Channel Interference (Severe)": 7,
+        "Doppler Shift (Severe)": 18,
+        "Faulty Handover Algorithm (Too Frequent)": 3,
+        "Faulty RF Filters (Temporal)": 8,
+        "High Network Congestion (Gradual Buildup)": 49,
+        "High Network Congestion (Sudden Spike)": 11,
+        "Jamming": 92,
+        "Normal": 3006,
+        "Resource Allocation Bugs": 11
+      }
+    },
+    "test": {
+      "sample_count": 6352,
+      "source_file_count": 5,
+      "anomaly_sample_count": 339,
+      "normal_sample_count": 6013,
+      "label_distribution": {
+        "Antenna Failure": 33,
+        "Buffer Overflow (Gradual Buildup)": 21,
+        "Co-Channel Interference (Mild)": 41,
+        "Co-Channel Interference (Severe)": 58,
+        "Doppler Shift (Severe)": 18,
+        "Faulty Handover Algorithm (Too Frequent)": 13,
+        "Faulty RF Filters (Temporal)": 26,
+        "High Network Congestion (Gradual Buildup)": 11,
+        "High Network Congestion (Sudden Spike)": 14,
+        "Jamming": 94,
+        "Normal": 6013,
+        "Resource Allocation Bugs": 10
+      }
+    }
+  },
+  "source_file_overlap": {
+    "train_and_validation": [],
+    "train_and_test": [],
+    "validation_and_test": []
+  },
+  "training": {
+    "annotated_anomaly_samples": 669,
+    "timestep_count": 85632,
+    "positive_timestep_fraction": 0.6780876307922272,
+    "source_file_count": 6
+  },
+  "model_selection": {
+    "validation_anomaly_samples": 227,
+    "selected_threshold": 0.42,
+    "selected_model_metrics": {
+      "sample_count": 227,
+      "mean_temporal_iou": 0.8144355390768241,
+      "median_temporal_iou": 1.0,
+      "event_precision_iou_0_5": 0.8133333333333334,
+      "event_recall_iou_0_5": 0.8061674008810573,
+      "boundary_start_mae_steps": 12.317180616740089,
+      "boundary_end_mae_steps": 11.854625550660794,
+      "boundary_mae_steps": 12.08590308370044,
+      "timestep_precision": 0.8238645111624326,
+      "timestep_recall": 0.970306904211433,
+      "timestep_f1": 0.8911093070213785,
+      "predicted_interval_count": 225,
+      "missing_interval_count": 2
+    },
+    "full_window_baseline_metrics": {
+      "sample_count": 227,
+      "mean_temporal_iou": 0.7591891519823789,
+      "median_temporal_iou": 1.0,
+      "event_precision_iou_0_5": 0.7312775330396476,
+      "event_recall_iou_0_5": 0.7312775330396476,
+      "boundary_start_mae_steps": 15.13215859030837,
+      "boundary_end_mae_steps": 15.691629955947137,
+      "boundary_mae_steps": 15.411894273127754,
+      "timestep_precision": 0.7591891519823789,
+      "timestep_recall": 1.0,
+      "timestep_f1": 0.863112589259513,
+      "predicted_interval_count": 227,
+      "missing_interval_count": 0
+    },
+    "threshold_selection_data": "validation only"
+  },
+  "test_evaluation": {
+    "anomaly_samples": 339,
+    "selected_model_metrics": {
+      "sample_count": 339,
+      "mean_temporal_iou": 0.7605669247787612,
+      "median_temporal_iou": 1.0,
+      "event_precision_iou_0_5": 0.7537091988130564,
+      "event_recall_iou_0_5": 0.7492625368731564,
+      "boundary_start_mae_steps": 15.377581120943953,
+      "boundary_end_mae_steps": 15.63716814159292,
+      "boundary_mae_steps": 15.507374631268437,
+      "timestep_precision": 0.7738952901696665,
+      "timestep_recall": 0.9916406062063988,
+      "timestep_f1": 0.8693405738839315,
+      "predicted_interval_count": 337,
+      "missing_interval_count": 2
+    },
+    "full_window_baseline_metrics": {
+      "sample_count": 339,
+      "mean_temporal_iou": 0.7664085545722714,
+      "median_temporal_iou": 1.0,
+      "event_precision_iou_0_5": 0.7433628318584071,
+      "event_recall_iou_0_5": 0.7433628318584071,
+      "boundary_start_mae_steps": 15.053097345132743,
+      "boundary_end_mae_steps": 14.84660766961652,
+      "boundary_mae_steps": 14.949852507374631,
+      "timestep_precision": 0.7664085545722714,
+      "timestep_recall": 1.0,
+      "timestep_f1": 0.8677591065650767,
+      "predicted_interval_count": 339,
+      "missing_interval_count": 0
+    },
+    "historical_test_partition": true,
+    "test_partition_used_for_selection": false
+  },
+  "limitations": [
+    "593 of 1235 anomalous annotations cover the full 128-step sequence and provide no within-sequence boundary information.",
+    "The annotation boundaries are source-provided labels and have not been independently verified against raw event timing.",
+    "Affected KPI labels are available for training records but this interval model does not predict affected KPIs; inference returns null rather than infer them from attribution scores.",
+    "Localization scores are uncalibrated timestep probabilities, not confidence intervals.",
+    "The test partition is group-disjoint but historical: it was already used for detection and diagnosis evaluation.",
+    "On the historical group-held-out test partition, supervised mean temporal IoU did not exceed the full-window baseline; treat the supervised output as experimental."
+  ],
+  "artifacts": {
+    "localizer": "C:\\Users\\laxmi\\Projects\\cross-layer-5g-anomaly\\artifacts\\temporal_localization.joblib",
+    "report_directory": "C:\\Users\\laxmi\\Projects\\cross-layer-5g-anomaly\\data\\reports\\telecomts\\1b3a88a440f4922edfcd1e230e42c003c0e13bdf\\temporal_localization\\seed-42"
+  }
+}

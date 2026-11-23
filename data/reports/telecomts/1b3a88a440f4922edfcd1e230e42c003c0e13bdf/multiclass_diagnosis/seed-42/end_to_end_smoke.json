@@ -1,0 +1,35 @@
+{
+  "data_source": "actual TelecomTS training partition",
+  "evaluation_metric": false,
+  "normal_sequence": {
+    "sample_id": "telecomts:d56644e279513feb4dfacfadcd3cc5dcaa8e7106f9efc8088f87c2329927b723",
+    "true_label": "Normal",
+    "result": {
+      "status": "normal",
+      "anomaly_probability": 0.0013333333333333333,
+      "model_version": "telecomts-binary-1b3a88a4-seed-42",
+      "predicted_anomaly_type": null,
+      "diagnosis_confidence": null,
+      "important_kpis": null,
+      "temporal_localization": null,
+      "explanation": "No anomaly detected by model version telecomts-binary-1b3a88a4-seed-42."
+    },
+    "diagnosis_loaded": false
+  },
+  "anomalous_sequence": {
+    "sample_id": "telecomts:1842f368e373cfda73861ccfdc508da037896cf4c63eae2aedbac3a925e383dc",
+    "true_label": "Jamming",
+    "result": {
+      "status": "anomaly",
+      "anomaly_probability": 0.9867999999999999,
+      "predicted_anomaly_type": "Jamming",
+      "diagnosis_confidence": 0.9876984126984126,
+      "important_kpis": null,
+      "temporal_localization": null,
+      "model_version": "telecomts-binary-1b3a88a4-seed-42",
+      "explanation": "Detected Jamming with anomaly probability 0.987 using model version telecomts-binary-1b3a88a4-seed-42."
+    }
+  },
+  "anomalous_sequence_true_category": "Jamming",
+  "diagnosis_only_after_binary_anomaly": true
+}

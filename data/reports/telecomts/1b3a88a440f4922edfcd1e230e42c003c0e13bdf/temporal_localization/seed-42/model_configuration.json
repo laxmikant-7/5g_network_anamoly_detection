@@ -1,0 +1,21 @@
+{
+  "dataset_revision": "1b3a88a440f4922edfcd1e230e42c003c0e13bdf",
+  "seed": 42,
+  "model": "RandomForestClassifier",
+  "model_kind": "experimental supervised per-timestep interval classifier",
+  "random_forest_parameters": {
+    "n_estimators": 80,
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "max_features": 0.8,
+    "class_weight": "balanced_subsample"
+  },
+  "context_radius": 2,
+  "context_window_steps": 5,
+  "processed_channels": 26,
+  "feature_order": "centered time context of stateless TelecomTS encoded KPI channels",
+  "selected_threshold": 0.42,
+  "threshold_selection": "maximum mean validation temporal IoU; timestep F1 then recall tie-break",
+  "sampling_rate_hz": "provided per analysis request; defaults to TelecomTS 10 Hz",
+  "affected_kpi_prediction": "not emitted; attribution labels are not treated as model output"
+}

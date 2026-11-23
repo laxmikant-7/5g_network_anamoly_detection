@@ -1,0 +1,8 @@
+{
+  "state": "completed",
+  "test_evaluation_count": 1,
+  "model_version": "telecomts-diagnosis-1b3a88a4-seed-42",
+  "test_partition_loaded": true,
+  "test_partition_historical": true,
+  "prior_binary_test_evaluation": true
+}

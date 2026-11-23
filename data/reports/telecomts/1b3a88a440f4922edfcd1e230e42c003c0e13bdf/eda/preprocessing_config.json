@@ -1,0 +1,132 @@
+{
+  "preprocessing_version": 1,
+  "dataset_id": "AliMaatouk/TelecomTS",
+  "dataset_revision": "1b3a88a440f4922edfcd1e230e42c003c0e13bdf",
+  "sample_count": 32000,
+  "input": {
+    "shape": [
+      128,
+      18
+    ],
+    "kpi_order": [
+      "RSRP",
+      "DL_BLER",
+      "DL_MCS",
+      "UL_BLER",
+      "UL_MCS",
+      "UL_NPRB",
+      "UL_SNR",
+      "TX_Bytes",
+      "RX_Bytes",
+      "Estimated_UL_Buffer",
+      "PRBs_DL_Current",
+      "PRBs_UL_Current",
+      "PRB_Utilization_DL",
+      "PRB_Utilization_UL",
+      "UL_Protocol",
+      "UL_NumberOfPackets",
+      "DL_Protocol",
+      "DL_NumberOfPackets"
+    ],
+    "numeric_kpis": [
+      "RSRP",
+      "DL_BLER",
+      "DL_MCS",
+      "UL_BLER",
+      "UL_MCS",
+      "UL_NPRB",
+      "UL_SNR",
+      "TX_Bytes",
+      "RX_Bytes",
+      "Estimated_UL_Buffer",
+      "PRBs_DL_Current",
+      "PRBs_UL_Current",
+      "PRB_Utilization_DL",
+      "PRB_Utilization_UL",
+      "UL_NumberOfPackets",
+      "DL_NumberOfPackets"
+    ],
+    "categorical_kpis": [
+      "UL_Protocol",
+      "DL_Protocol"
+    ]
+  },
+  "output": {
+    "shape": [
+      128,
+      26
+    ],
+    "feature_order": [
+      "RSRP",
+      "DL_BLER",
+      "DL_MCS",
+      "UL_BLER",
+      "UL_MCS",
+      "UL_NPRB",
+      "UL_SNR",
+      "TX_Bytes",
+      "RX_Bytes",
+      "Estimated_UL_Buffer",
+      "PRBs_DL_Current",
+      "PRBs_UL_Current",
+      "PRB_Utilization_DL",
+      "PRB_Utilization_UL",
+      "UL_NumberOfPackets",
+      "DL_NumberOfPackets",
+      "UL_Protocol=<empty>",
+      "UL_Protocol=None",
+      "UL_Protocol=TCP",
+      "UL_Protocol=UDP",
+      "UL_Protocol=__MISSING__",
+      "DL_Protocol=<empty>",
+      "DL_Protocol=None",
+      "DL_Protocol=TCP",
+      "DL_Protocol=UDP",
+      "DL_Protocol=__MISSING__"
+    ]
+  },
+  "numeric_handling": {
+    "operation": "preserve raw finite values",
+    "missing_values": "reject and report; do not impute",
+    "scaling": "none"
+  },
+  "categorical_handling": {
+    "encoding": "one-hot",
+    "categories_per_kpi": [
+      "",
+      "None",
+      "TCP",
+      "UDP",
+      "__MISSING__"
+    ],
+    "empty_string_and_literal_None_are_distinct": true,
+    "json_null": "__MISSING__",
+    "unknown_categories": "reject and report"
+  },
+  "excluded_predictors": [
+    "label",
+    "binary_label",
+    "source_anomaly_type",
+    "anomalies",
+    "labels",
+    "anomaly_type",
+    "anomaly_present",
+    "anomaly_description",
+    "anomaly_duration",
+    "affected_kpis",
+    "zone",
+    "application",
+    "mobility",
+    "congestion",
+    "description",
+    "start_time",
+    "end_time",
+    "sampling_rate",
+    "sample_id",
+    "source_file_id",
+    "source_line_number",
+    "source_sample_id_present"
+  ],
+  "fitted_transformations": [],
+  "fit_policy": "Stateless encoding; fit any future learned transforms on training data only."
+}

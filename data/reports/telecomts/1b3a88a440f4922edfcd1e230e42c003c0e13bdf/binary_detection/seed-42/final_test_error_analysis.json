@@ -1,0 +1,1190 @@
+{
+  "false_positive_count": 101,
+  "false_negative_count": 96,
+  "false_positives": [
+    {
+      "sample_id": "telecomts:6c66c0254714cce1b1d95c5ef40d2eca913d81e2d2cdb18a3648ef43163c7ca6",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5998000000000001
+    },
+    {
+      "sample_id": "telecomts:b3ae44cca11ff430bd9c4bd3c63b1e0874772260ce0465daab0394812a138f62",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6163333333333333
+    },
+    {
+      "sample_id": "telecomts:24f79a4bd738a96a6161cf893b5cadfee0c02eb9a71f59536b3aeb12083db31b",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5973333333333335
+    },
+    {
+      "sample_id": "telecomts:fbfd41f590b45fe96cd3b57b48cdcb62f1e4103107215cbdee4af676187523f8",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6436666666666666
+    },
+    {
+      "sample_id": "telecomts:0254055a13013caa95a6ca97ba1d6e75953cdb5923a8e04e15a7f82c833ead9a",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.45226666666666665
+    },
+    {
+      "sample_id": "telecomts:5acdd1d4a9f1d1d594a9ee6dc73a14d2194a10adb1aaec1cc2ae0b6974cb2687",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5598857142857142
+    },
+    {
+      "sample_id": "telecomts:616603ad2c788615d9e3fa0ffba7f63cc62c02d731bc0fdac27319636a52d187",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5501333333333334
+    },
+    {
+      "sample_id": "telecomts:8fdabdfd5a839cffac3833b69195a35023a536247db783854f5038db63977260",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5776000000000001
+    },
+    {
+      "sample_id": "telecomts:05e12cd26a9d423c38aa0955cdb5f3e063c986e7ec55d1fa1b8bfb19d5747b4c",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5147333333333334
+    },
+    {
+      "sample_id": "telecomts:b5898b4ac824d63ce1aa174feaad7c2590aaa1835d97c5bc37ac988e28d3fdf7",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5133
+    },
+    {
+      "sample_id": "telecomts:0036c03a525528d0d119d5ada030e0c665c1971b5249ac37250c881832ab50de",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5648190476190478
+    },
+    {
+      "sample_id": "telecomts:e5bb60d5200ca9dbc0a0265db9e0f9876ceb3fbbd8d487a045ea64c5f4e3fad1",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5665333333333334
+    },
+    {
+      "sample_id": "telecomts:cb674f60e37202535f9cf38a7962ed47922980746bc672c920205240e317f6a9",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5334
+    },
+    {
+      "sample_id": "telecomts:104a702fbbd594d86a54ee6953d087b80b56bdffcd797c03f3cf52616db9e648",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5878
+    },
+    {
+      "sample_id": "telecomts:0bd98d57c3aaf59d70ef337fe54f7b3858680f5e03afdd32dbc13105c558f850",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6533333333333334
+    },
+    {
+      "sample_id": "telecomts:fd04156a5be92acf99e65b3785387d8ce4fc768a6594057d6c015336d9c2040b",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5461
+    },
+    {
+      "sample_id": "telecomts:4143e0166470b4c24c29d04ca3d836649f4facd22287d2abda9748004058ef13",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5545333333333334
+    },
+    {
+      "sample_id": "telecomts:4b501e16d903def4bcc5db70c768ebe43494d0b628e2cdc8ca28f35d91678eac",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5798666666666666
+    },
+    {
+      "sample_id": "telecomts:370457b6754f2c4fc3ec4ddda56c1157fd1b2ae585ac0d6af8768e3123863847",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5594
+    },
+    {
+      "sample_id": "telecomts:fbb87ab2cd573ac9e9371dffd05bea601cb06c5c03b81e94db5c63a89bacc93d",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5878666666666666
+    },
+    {
+      "sample_id": "telecomts:d9dd329992778b3f39498693a74aff5fd72ccc5ed2e195b85fe117d8425fcad0",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5867333333333333
+    },
+    {
+      "sample_id": "telecomts:6c283ece18b2312da32b0bef388eb948f99e3db2f94d6fd377eab045abb34c26",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6149523809523809
+    },
+    {
+      "sample_id": "telecomts:9213a3cc3be7f6c7a916196441675541db66866898cce55c45caf33a67fb51e0",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5521333333333334
+    },
+    {
+      "sample_id": "telecomts:0921b246c9f799578ec9e997f4a4b732b14f1bee3e11e2cb5a2cbcd83ede45f6",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6211333333333333
+    },
+    {
+      "sample_id": "telecomts:699b6b49c11324b408fcb212fadf8d6c249d67940adbb7e47035244fb17e13a8",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5218666666666667
+    },
+    {
+      "sample_id": "telecomts:6c63de422eb1c0fd6d664dd25cf8f1cf113a1c20f9d5a41a485a2b1b06209b49",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6588857142857143
+    },
+    {
+      "sample_id": "telecomts:364a9637d58fe1936e53dbf12e2403b7a86a7f18385110b401e78b16cfd4189a",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.4543555555555556
+    },
+    {
+      "sample_id": "telecomts:efe25a3a6af7829a57d88492cbc1fc4098aaffc30e58225b649c0321c188d914",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6145333333333334
+    },
+    {
+      "sample_id": "telecomts:9f2ea23bf9493ec047f0584e163f9bc67afa18af073467cc8f153732ca2de851",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.630752380952381
+    },
+    {
+      "sample_id": "telecomts:8a145130a51a391ee2c7a64f03763dee61eb36875f832301bfa9ee6ebf108c37",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5819333333333334
+    },
+    {
+      "sample_id": "telecomts:4815dd5bbc7d707c16d76b57b64b7f560ed44712f7bf740e2a0082c0292aa3d0",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5753333333333334
+    },
+    {
+      "sample_id": "telecomts:17c25707228af34c6331ddacd30d90f2b49a2b211a6106aa34193df31114a4dd",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5764000000000001
+    },
+    {
+      "sample_id": "telecomts:9eb06e8e1161b5377c5dfe681376bbdc0aae704dddbbe88e6fa3797330c7da91",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5510857142857143
+    },
+    {
+      "sample_id": "telecomts:a66d23d04695988c59c91dc1a989fc43bd46f8a5bc6a9e0b389f861fd17f3130",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5751999999999999
+    },
+    {
+      "sample_id": "telecomts:d88f3365189d7dc6b11dbde5eff317f5ad57908a7c16f575863ddbe5aab9dfc8",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6103999999999999
+    },
+    {
+      "sample_id": "telecomts:1512141e72f1efe11b627b7b93a566742cef6554a93cfe01a4d1fd09a60e67b2",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5506
+    },
+    {
+      "sample_id": "telecomts:a72b67c037b2570190b2b863929392e1f5e371b11e8c3557339de2d920311b60",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6169333333333336
+    },
+    {
+      "sample_id": "telecomts:d2149b46fcd7b66969d09466289d0c8b4480056d5efb84991a6c3be41ed39f57",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5805333333333333
+    },
+    {
+      "sample_id": "telecomts:272e8d62efb4d52a66ba3b6fd170219365341fa0596edaba97b0eaf7b26d9ff0",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5658
+    },
+    {
+      "sample_id": "telecomts:da6b43c4ccce6a3e401b52e36603881f25390e62c937141fa98b90ab4b00db2b",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6080666666666669
+    },
+    {
+      "sample_id": "telecomts:d518bfb0c281a5542248ed23ed1e0062281b835a936344e792f5c5a1ea499a1c",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5894666666666667
+    },
+    {
+      "sample_id": "telecomts:efabc41716829840e5029adf9f34938119e8a22a895f6ce069245f37f27b8fa1",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.633352380952381
+    },
+    {
+      "sample_id": "telecomts:42d42a806a065192454c757d89bbd58089045839a2327309ea5fbcdb11337cbb",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5749333333333334
+    },
+    {
+      "sample_id": "telecomts:8a016712ad8fa8bcd2d528086f29a6e2c8fb16df9c5c50f383213bb02d21d374",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5880857142857144
+    },
+    {
+      "sample_id": "telecomts:7075e17c45c59ab83adff4aa03c6fae1dd56a74a4353abe626445c89697049ed",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6027333333333335
+    },
+    {
+      "sample_id": "telecomts:a2f5c182f93cfba8084b7363b16d06d6ed3b820916598c44b3c426e51c247711",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5738
+    },
+    {
+      "sample_id": "telecomts:4903864f052ec85bebbb1ca4eaa1c810b12ec267189f309c8ba00823869f9aaf",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5874000000000001
+    },
+    {
+      "sample_id": "telecomts:823e86e6459f226d51016e5846cd23a97b56bed56068f583ced52b81b4a54add",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.556352380952381
+    },
+    {
+      "sample_id": "telecomts:145491a44c1b2bd4a8398c3d6e6fc20f1608ade4c22a56a559fb6ba0d226d07f",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6212666666666666
+    },
+    {
+      "sample_id": "telecomts:d034535672d86175a70cb37d71051fca118cf9da1de5a7421c68951211d02c01",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6276190476190477
+    },
+    {
+      "sample_id": "telecomts:c4a74b4f5a695f2c5812229301495a44679f64a4eb34ef636bcf328ed6d9bb15",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.597
+    },
+    {
+      "sample_id": "telecomts:015eedb430b7ef2400e950fb31478a15f9be5f862d4ac960bd1b5c5970147295",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6418857142857145
+    },
+    {
+      "sample_id": "telecomts:a5e80bcd8c9f0b6429cc56161513742a16f6e54c2bebd834b00a37d83dbf3b4b",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5382
+    },
+    {
+      "sample_id": "telecomts:0948f19a1eea7f21078e7090a1565b0009a171761391199aba69b2634418f206",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5144888888888888
+    },
+    {
+      "sample_id": "telecomts:9e1da7bb6ea450ca5eaf0e1ac80d5eb16f0ea5bccfc562f513dabee9a26a8e0c",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5814666666666667
+    },
+    {
+      "sample_id": "telecomts:e32acbd7aedf7cb4b8474d78c7ba6e9b69aded4de4b59404483d45f7433a103d",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5756666666666667
+    },
+    {
+      "sample_id": "telecomts:8c3e3d780f2435efe8b3f9c0f0273eaa60f091c167d819a025b81921daa92bdf",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6294
+    },
+    {
+      "sample_id": "telecomts:9848aae96fe83cbf0f3b8746ac13fb7c9bd52a4523590d128015154b01015e57",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5946857142857143
+    },
+    {
+      "sample_id": "telecomts:0439bbeee6d7901aca3bb3f981f3206be6872af0500b05773269051ee4803a01",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5788190476190477
+    },
+    {
+      "sample_id": "telecomts:d717c537b54988edb3ea098f30f36fc2df4eee668f7a113ac4865ec5ea9f550d",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6176
+    },
+    {
+      "sample_id": "telecomts:150ea6e49660f8a5de275fe26fdd8e7ecc5f7327b0847eeb4d5a22da8e15fcca",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5830857142857144
+    },
+    {
+      "sample_id": "telecomts:8e47c9b9e69d1be56345a92c1b7a4afde192bca70a53d24e6c428e3e430d0a3b",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5334000000000001
+    },
+    {
+      "sample_id": "telecomts:5d627427ce4174b310cd882a78bd3dbef0a0c0088262bb56ac868b53f0a968ad",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5678
+    },
+    {
+      "sample_id": "telecomts:290eedba91a61f2dfb8f032b7f9f6806e86be2abce99cb9b473ca7ee1b1fe199",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5843333333333334
+    },
+    {
+      "sample_id": "telecomts:41448ca503803c082e25314aebad0c1c04bed5501face8398a702821aa555e7f",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5499333333333334
+    },
+    {
+      "sample_id": "telecomts:0a347592fbebb12f42ae7052e59778ff73beea1e384eb2178d81121fe6182b6f",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5079666666666667
+    },
+    {
+      "sample_id": "telecomts:fc9f7a6c881312d7be0eb247717008a120a061b516f39ff13ed9f0ebf25520a0",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6054857142857144
+    },
+    {
+      "sample_id": "telecomts:3fbc8de60189275c7317fc6b3abed71821e173b97f35398afb62b6d19deeb49b",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5333000000000001
+    },
+    {
+      "sample_id": "telecomts:b4c743d1169cfbbe857a4dde2a1e51dd0c95ae2fd7aae7a4fa348b7d1add53c1",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6068190476190477
+    },
+    {
+      "sample_id": "telecomts:a0ac8f53a181c6b3078bc69351c993a6fe59926716f81dc95e9e1b6fb8c56dc2",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5516857142857143
+    },
+    {
+      "sample_id": "telecomts:daa2262256241c6fa7eea67858efd3aeaeae5f4ad54673e23a518dc286d66297",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5574666666666668
+    },
+    {
+      "sample_id": "telecomts:1424eac6643f520a580baeb98c2ba938981f044c58e73adf6cf953a406e298b3",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6084857142857142
+    },
+    {
+      "sample_id": "telecomts:02440c7661b4d2697aeb51b22f04c4ab517d69dfe4a70307d81ee155af11d187",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5614666666666667
+    },
+    {
+      "sample_id": "telecomts:debd0fe5d0a75a365629235a84d3e759ebec3e3343bef5847347e2dc741b9f41",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5669333333333333
+    },
+    {
+      "sample_id": "telecomts:026b16d50061f1a47d9e460c56d13ca7e6eb8d96c2820861ddc36884e723a7e3",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5362000000000001
+    },
+    {
+      "sample_id": "telecomts:1686277e2ed7a0edd2b599ac2294b548e35b48d2cfae14d22e606016e9290820",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6177999999999998
+    },
+    {
+      "sample_id": "telecomts:d578fe8be067848055237911237a9013f51caf271c445da92f9d5d8aca7f6b03",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5836
+    },
+    {
+      "sample_id": "telecomts:224a525c45d47f1bcb9e01022145a87f17eaf85abaacecbb42647679e612c4dd",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5928666666666665
+    },
+    {
+      "sample_id": "telecomts:3edf0844bff8f03653432192fe11d75202522a701652ef2abdfc61ff1386cd34",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.44806666666666656
+    },
+    {
+      "sample_id": "telecomts:9ced96fb0cbac53223a8d42cdf7d07ad6378f5f7121fa5b0a5088091ada9cc19",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5748666666666666
+    },
+    {
+      "sample_id": "telecomts:76af927578f2fb3900fe08f3e892291d0cc5cc71f9c67d0072744db54e884b85",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5564000000000001
+    },
+    {
+      "sample_id": "telecomts:8d569d140834780ead984565b433712764423a337fbcd41b84142415b0ca788f",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.4892666666666666
+    },
+    {
+      "sample_id": "telecomts:389468da6255f7fc9629a6d24999ef646ec39a833647e6ee86ac246bdd1ea6c8",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5710000000000001
+    },
+    {
+      "sample_id": "telecomts:c779b3c71219a2e34b96240b59e4b038057a4bc0e80fb25bb4921b24b07bc371",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.4840571428571428
+    },
+    {
+      "sample_id": "telecomts:8be7c57debaadaa0a5c6f976e0691bc155f27fe074e3232b2c850d3309018d31",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5267333333333334
+    },
+    {
+      "sample_id": "telecomts:4aad52f7113783a03d83c463081f881b6259349bea3361d63d6c41e583ab0203",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5503333333333332
+    },
+    {
+      "sample_id": "telecomts:ea13dc9935a113876810a91a9b7f5cf1ee33f4bd003cd575383b0af7f5c25e9a",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5638666666666667
+    },
+    {
+      "sample_id": "telecomts:ee3f8cbe32755165fe90ee11f83f7663ce1c9d86b107cf22d04cb0c7d46deb38",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.4823333333333333
+    },
+    {
+      "sample_id": "telecomts:80e4414384c68f044634457b2f5880a56ecd910a82db4d26e59a56e451d47dca",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5796666666666667
+    },
+    {
+      "sample_id": "telecomts:3e9da15558b1f45295f4e2a02148d8df4484622c32c65f73ef7116b6d03073cd",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6531333333333333
+    },
+    {
+      "sample_id": "telecomts:b961af95efc4ef23aae82fa66782500190a4abdc56e4df59aa02a11b14fe869b",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5957333333333333
+    },
+    {
+      "sample_id": "telecomts:8fd3738fa2aebbbaf2c91d387d44208a11d2fd444b47f429fbecced9ff8c5243",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6012
+    },
+    {
+      "sample_id": "telecomts:4b7caa2796a301dce983a044d1a3ff188c05d6db20e4906417214bf8af2945c1",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5206000000000001
+    },
+    {
+      "sample_id": "telecomts:7f8cb7be778e820c9f7709beddca695ffe2c3bf6b60b9571443da39a9a8e79e0",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5501999999999999
+    },
+    {
+      "sample_id": "telecomts:8ee419e11488b0651734c5a779f742e383269dd4b856c4243195ff653d65e0a6",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5607333333333334
+    },
+    {
+      "sample_id": "telecomts:6f9ed643451919bff2442c34b7d01c7da05898622b31c4c7a1913fb2bd5544d4",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5818
+    },
+    {
+      "sample_id": "telecomts:3721967c74877c7947eb713cfc038a500c76115823231e7cdfcb30de37ee8f78",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5247666666666667
+    },
+    {
+      "sample_id": "telecomts:e6ca5f593e3fd310a59b2228c031c17006e165f341844c854de7d4b1df96c244",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5778857142857144
+    },
+    {
+      "sample_id": "telecomts:ddf48683a96cc64b6f18d0f6458e791734c9eda28cc768dee5bbc0121da59847",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5992000000000001
+    },
+    {
+      "sample_id": "telecomts:d3b902b027387c7fae6435bd0749bb9ade0d4e5170616b2ffaab729591c2b695",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.6069333333333334
+    },
+    {
+      "sample_id": "telecomts:bf6d663936d9e0a9804252b03517f6320baa64509a5f8618d8547ff15ec88846",
+      "source_file_id": "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+      "label": "Normal",
+      "anomaly_probability": 0.5397000000000001
+    }
+  ],
+  "false_negatives": [
+    {
+      "sample_id": "telecomts:d609752e17d02c9e4cd8734e03ab595345f5153ccbef1563679f0f4670057f5e",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.35806666666666664
+    },
+    {
+      "sample_id": "telecomts:6f8164577f1d7cb809eeac70cd07e064e3080237e849fa67f28a0a5551bbd9a7",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.20106666666666667
+    },
+    {
+      "sample_id": "telecomts:218381e386b419e41d4d7fd98348ee564666b9952456f5f654655f440542b63a",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.24806666666666669
+    },
+    {
+      "sample_id": "telecomts:19b6488398c216c413305c9d66521843285204bf02935bbae2b6ade900c81f02",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.16606666666666667
+    },
+    {
+      "sample_id": "telecomts:99e5c531f16c16f563c45555c4fd23bd96db5cf53f62e9a498dcabe9701d0a3f",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.2900666666666667
+    },
+    {
+      "sample_id": "telecomts:640da62a847f5ed58768a3813e9de6f24c1899e5da1d1da025f766f0ac5c4c9e",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.16606666666666667
+    },
+    {
+      "sample_id": "telecomts:3feb768372a6f3a3bdd0cf98b7c1640dc5be06228421007b71f58b99cebd814a",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.2600666666666667
+    },
+    {
+      "sample_id": "telecomts:dc0d9fe5d5e50af7a227597f24e20b3009f3070c8ce1adfdad379e953c30f35a",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.1134
+    },
+    {
+      "sample_id": "telecomts:a9bc2920d8cd3671a6b8bd25e80ce8681f454fb3c49efce4316029fce289aec0",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.2520666666666667
+    },
+    {
+      "sample_id": "telecomts:c21c90008e94461ab411e8b5b2ff4bed39c4e151fe982e2b404963df44295839",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.16873333333333335
+    },
+    {
+      "sample_id": "telecomts:a899d6371436e581f3104c9b7e3bf3c293a5e4cf52f15af46837a36d261c07aa",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.2009
+    },
+    {
+      "sample_id": "telecomts:41b998c2aa68b72154e6cb8d8b268295093512973fd38d601af54d2c690c27c5",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.36606666666666665
+    },
+    {
+      "sample_id": "telecomts:7b6d69ea0970217740a8ed837a6fa9ec356d5ae9158a0fa6ea82f873972df0a1",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.4280666666666666
+    },
+    {
+      "sample_id": "telecomts:9639b18a15d94673345481f1d7462e6e674fe78bf4d16d0cf1f6c0dd0a99dab4",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.32739999999999997
+    },
+    {
+      "sample_id": "telecomts:3768036e4314bf79327a26f606957e1c3b48a0b4db1d8032e01217de1dd54799",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.40606666666666663
+    },
+    {
+      "sample_id": "telecomts:9da9971cee2e99d358e3f687b8aa9a90632d5192c715dfdf7230cf8ab9f34e94",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.3900666666666666
+    },
+    {
+      "sample_id": "telecomts:bc462243d2182c284553c8eec971475167eabea10e229ffe55e5478913e004ca",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.2660666666666667
+    },
+    {
+      "sample_id": "telecomts:1f5ec9173f034a35fa5c6d72be249deba807b9881f180260788ca6a24587fbf5",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.17006666666666667
+    },
+    {
+      "sample_id": "telecomts:90bb09120c0d66ebde56fc480d11d75f9316aebe3e2d85d022e8dd2045b270bc",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.41339999999999993
+    },
+    {
+      "sample_id": "telecomts:f0e42c114c460640c164429c4417d3c8be186325c078d6a8d07a969df9f92676",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.16606666666666667
+    },
+    {
+      "sample_id": "telecomts:4488b6d21c473b48359fe44c542bd5eb925e84adaabc55ff9292df882460ae78",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.1794
+    },
+    {
+      "sample_id": "telecomts:82bb3f5ef595e1f09d6fabd32e1b27571cdaf8bd5dbef2d9d70b83b9ecfd3676",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.16606666666666667
+    },
+    {
+      "sample_id": "telecomts:ba19644f1d6b48d9753db8ea27094dd671816afb2707cd9f7c2f3cc85dff93c0",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.18006666666666665
+    },
+    {
+      "sample_id": "telecomts:87d4529daf5ea7dd756e25bb747ee692b33e84042610717dbe1ada81eb547b4d",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.0654
+    },
+    {
+      "sample_id": "telecomts:f3d9fa54fc954ba490d3fc37d874a3c98d60d9579d12b79fa62f92a23dd89b44",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.14606666666666665
+    },
+    {
+      "sample_id": "telecomts:ac6a444e313476e9d709dec5ea9e7ad35d866caf1d3f07de014bd88518c49979",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.3620666666666666
+    },
+    {
+      "sample_id": "telecomts:fe090eeac6672b867a23735d526f0f3feac714df5ddab159786a50b2e6582b19",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.2500666666666667
+    },
+    {
+      "sample_id": "telecomts:d11261a568c18e27172032b5029da7e2a6fd91efe33f733a9f665874ed7c01ae",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.4260666666666666
+    },
+    {
+      "sample_id": "telecomts:0d005b940f9dc013144e3e0d4c5363268a3a76bee2d47637acf9ef280f90e3ee",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.36939999999999995
+    },
+    {
+      "sample_id": "telecomts:55dd512a940cd9501f9fee1860c0ef018240080ef4c67470c72bf7140a759a90",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.16606666666666667
+    },
+    {
+      "sample_id": "telecomts:ea02d7e857f2158c03c4000ba43888070851f808cd9291e72d76276aa932f692",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.4280666666666666
+    },
+    {
+      "sample_id": "telecomts:0fe17aa97fd3660e609779cc5f34944fde6128e22de54bf8b71fee68af98efdc",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.35406666666666664
+    },
+    {
+      "sample_id": "telecomts:bfa79a0fe8dcca7562b1ed59faaf3a5fed51ea070bea87a1c437f1de18ce7e51",
+      "source_file_id": "anomalous/jammer/Twitch/processed/chunked.jsonl",
+      "label": "Jamming",
+      "anomaly_probability": 0.37006666666666665
+    },
+    {
+      "sample_id": "telecomts:3417f57301b1b0f08b2c77f2983575a5adb90fbadd3fe0279bb52160e8e666ec",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Severe)",
+      "anomaly_probability": 0.036
+    },
+    {
+      "sample_id": "telecomts:ce994835d0511ed8ab593154d16d5a74a3408282e482bfbd9856d5d9a09ebfe4",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.4076
+    },
+    {
+      "sample_id": "telecomts:3f0785bbb9d7d51a1afb881cb1a83b7f3ddb37c839871a5047784ab5812d1be2",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.029333333333333333
+    },
+    {
+      "sample_id": "telecomts:69b3296b16bb6bfd197d434d5093fd71433f6f022da653787322dcfc95e39a19",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.15276666666666666
+    },
+    {
+      "sample_id": "telecomts:337d8c806394d33f5e216265e1d7d39ea19c65e37eac3255587749af01bd4b01",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Gradual Buildup)",
+      "anomaly_probability": 0.2610666666666667
+    },
+    {
+      "sample_id": "telecomts:e25e6d64d70b7a3a31d94229216615d09c5823a453a6a7478cf66735fc0a0f28",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.35206666666666664
+    },
+    {
+      "sample_id": "telecomts:ef5c772f0467b61ae6fccb3fdcd42d967896dec37b1410f009571a2f4dddea43",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.05566666666666667
+    },
+    {
+      "sample_id": "telecomts:08308b08a0f8fda4191cd5a0e9b53adab69a6fc7afbfb4be40af74cccb13785b",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.10033333333333334
+    },
+    {
+      "sample_id": "telecomts:01dcab70823948b437f268d42d8fe781cb68ae6a158bedc5332a62d306fe4a07",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Antenna Failure",
+      "anomaly_probability": 0.14
+    },
+    {
+      "sample_id": "telecomts:f75eeb72f1e6d61b1a1fc26e4ae6e4e96b3869066eabed73cb264a5372fc4937",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.024666666666666663
+    },
+    {
+      "sample_id": "telecomts:5b18cb94e2035606bbe8de1502a406caf3e7318991a5e92213cb93c03e8a4f36",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.3718
+    },
+    {
+      "sample_id": "telecomts:5e7c7045e9490383768790f0b4e7d41ea8602c0560fce7511c51c9a5b255a9b9",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.2716666666666666
+    },
+    {
+      "sample_id": "telecomts:2f7fc8929528ad533140bb391c08866df759919ba0a199885174c7945cdfcfca",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty Handover Algorithm (Too Frequent)",
+      "anomaly_probability": 0.17061212121212121
+    },
+    {
+      "sample_id": "telecomts:53cedc89ea8ab2e79ae4c0f1610dd16be83f5a5868c34f83379832b0e6bd46cf",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.3234666666666666
+    },
+    {
+      "sample_id": "telecomts:672a0411ba8de61aa20fb3247bf6d0b3fe5ef2b8fbbc3bce23e3cf5a0642ef94",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.05
+    },
+    {
+      "sample_id": "telecomts:3b72523f50eb0c874db008c428dfea81bf79a48b0462426daf78280938062d40",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Antenna Failure",
+      "anomaly_probability": 0.12799999999999997
+    },
+    {
+      "sample_id": "telecomts:0ced8bc60c5a48ae3cfcf392157a56301b81f814af1272d3070940a56edcef60",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.0035
+    },
+    {
+      "sample_id": "telecomts:1a6a8e3905ad6a0bbee922deb42f80164ef0843845088cf07873137d22580ef0",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.3661333333333333
+    },
+    {
+      "sample_id": "telecomts:5beec0964b36dc34ab01b3b8f5015f4fbcb1b9d8238cde5d280e63c0b6bfffc0",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.11126666666666667
+    },
+    {
+      "sample_id": "telecomts:f2eae1d880db09ac0f88e2adc897ef05fe4692975e8671fe6d9abdc39430b0da",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Antenna Failure",
+      "anomaly_probability": 0.17626666666666668
+    },
+    {
+      "sample_id": "telecomts:73f2a16e520709f864272e1dee606e53b9cdad2546db1988c17e2399e765e299",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.28883116883116877
+    },
+    {
+      "sample_id": "telecomts:ddc4af7fd3f69d92cd2cfcd404555117c18669687fe485e6bbbbdefac897ed25",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.2995333333333334
+    },
+    {
+      "sample_id": "telecomts:b053e1a0a543d6dd9964def5085188bdfd7a6d0b04248fa14b6d1b5b7aec540c",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.3862666666666667
+    },
+    {
+      "sample_id": "telecomts:7940b0968d90e02ee38c46065911aa2f01f2f923dcaaae6eb20c04ff85b1bd93",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.3768
+    },
+    {
+      "sample_id": "telecomts:ce3e0c9f5715ba1f2a3ad7df908562127e4743eab1042573df8f565758c9f4b2",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Antenna Failure",
+      "anomaly_probability": 0.14780000000000001
+    },
+    {
+      "sample_id": "telecomts:421399393716ba321da26cba6b1fd80b165c128a599b39e0df9ae5e913119aaf",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.3755619047619048
+    },
+    {
+      "sample_id": "telecomts:f2c914b035edb1d59789076e949c1b7bec20c014d8d35158a5b549ba2e3855c1",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.3731333333333333
+    },
+    {
+      "sample_id": "telecomts:0a83b23ac5b7c7b6617d5f4faacfa0894d4be7823d7abfdc0b4377f5614299c9",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.2514
+    },
+    {
+      "sample_id": "telecomts:a2dabd870b4b81d9e1b46de5ad9500702165a623387b4f959cc9e939ad242967",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty Handover Algorithm (Too Frequent)",
+      "anomaly_probability": 0.0
+    },
+    {
+      "sample_id": "telecomts:568674fc601c5eba40f6dd5e9f9fcf7e8ec8fe075cf9765b662788d2ec34c01e",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.23445714285714292
+    },
+    {
+      "sample_id": "telecomts:5101c0063266cf7102d542d37bcb608a934bb1fc5a6c16b37823c04c0651c7f5",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty Handover Algorithm (Too Frequent)",
+      "anomaly_probability": 0.40859999999999996
+    },
+    {
+      "sample_id": "telecomts:8b7919cbc685f3e6bcc7f227f81ecc2759d0cf97cc3ad67b81206fc6513c83c5",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty Handover Algorithm (Too Frequent)",
+      "anomaly_probability": 0.3975333333333333
+    },
+    {
+      "sample_id": "telecomts:5761c58dcae707061f250d0a3afeb801cc85c51f31d2383ced412dc292fab630",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Gradual Buildup)",
+      "anomaly_probability": 0.043666666666666666
+    },
+    {
+      "sample_id": "telecomts:bf5ae88fcbbd0109011052a55ca8c71d0d7b534d1cdbb667d04770d489b2b379",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Antenna Failure",
+      "anomaly_probability": 0.288
+    },
+    {
+      "sample_id": "telecomts:531d421c5e1f549d058bb28e317412c3025e77617afa0b11f21ede5cba8f8ade",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.09465714285714287
+    },
+    {
+      "sample_id": "telecomts:495aa1c31591d5ecb6e805fe7885bd7157f5be9fa55d110ca0809fc7751135be",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Gradual Buildup)",
+      "anomaly_probability": 0.07333333333333335
+    },
+    {
+      "sample_id": "telecomts:5d7ac6616ebe0ff1eb47d80c57c78c370a1255a5a3b215f99adade49ed0e9729",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Gradual Buildup)",
+      "anomaly_probability": 0.12933333333333333
+    },
+    {
+      "sample_id": "telecomts:e12a84bb414c6d71ab4cc1683b22da9d5374e96fd4af0cc5dd1d20beeaf79704",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.15766666666666665
+    },
+    {
+      "sample_id": "telecomts:563d1b1ec25529bca7fe50de9c4be5bc01267cc333e7020ac378876033f8125d",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Gradual Buildup)",
+      "anomaly_probability": 0.1623333333333333
+    },
+    {
+      "sample_id": "telecomts:e154aae7bd9b049fcce589427f3e39c051d60bfaff37f236ed3110b45270f9de",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.052
+    },
+    {
+      "sample_id": "telecomts:6d1befa125930986f95f2504f27075ccaa5d9f49ed6f701de855b0588b7fa9b1",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.14046666666666663
+    },
+    {
+      "sample_id": "telecomts:fb791ce90e2b92063197a317c7a73e27e43f0697d742e3ef0d508c71faefb1af",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.3958
+    },
+    {
+      "sample_id": "telecomts:8154652fbbaec30dd93b3e8efbe10427f4810476fd4cd62a2f3832c3c1156d74",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.3724666666666667
+    },
+    {
+      "sample_id": "telecomts:15973460d6e0d940d295b2b8e32bb246c9c0ba3529a9ede0a33afa42af590344",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.272
+    },
+    {
+      "sample_id": "telecomts:1115ed6ce1d69024f57d8c2ae8181cd1af25f4f41a2c02d44ac0d68fae75f633",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Gradual Buildup)",
+      "anomaly_probability": 0.16546666666666665
+    },
+    {
+      "sample_id": "telecomts:487bf88d261b9768025d691ec8be71869d38369b487dee6dc0d79a974769bbc9",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.2840666666666667
+    },
+    {
+      "sample_id": "telecomts:713d2ddbe7dac2510a35601bd093213790d23683dcdacd1c5baaf897421140d2",
+      "source_file_id": "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+      "label": "High Network Congestion (Sudden Spike)",
+      "anomaly_probability": 0.35979999999999995
+    },
+    {
+      "sample_id": "telecomts:62f0a0b2adb81412dbd17dac850e5fbe28d6b4d507500df9a49f745d59bb09fa",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.3530571428571429
+    },
+    {
+      "sample_id": "telecomts:3ce014ee87b5fbe92a87fdfd6a273e685d0f010989860881579e6b2bafade380",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.06893333333333333
+    },
+    {
+      "sample_id": "telecomts:45c4f218e5daa0b58aae972eb557e17cd93df2cb86ebc1c2e55004f0ac0b0e2f",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.31486666666666663
+    },
+    {
+      "sample_id": "telecomts:1400a863b8c2e83b4d28607191854d7b803566ae70fd63d2643b416510412c3b",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.2569333333333333
+    },
+    {
+      "sample_id": "telecomts:9a9bbbf6652d8de2c6f9d70914fda88c0d9026756e887764a61cf9d225baff05",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.0352
+    },
+    {
+      "sample_id": "telecomts:c977a753edc30a734cd7a7a9d00cbdd32a83974f6ed2d75ad861a27b2062e295",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Antenna Failure",
+      "anomaly_probability": 0.34226666666666666
+    },
+    {
+      "sample_id": "telecomts:06f559055b929008e49bb9990976431b41421e89d5e6bd8b0a101f3e2030cd75",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.24406666666666663
+    },
+    {
+      "sample_id": "telecomts:72a242061747b3d6d614eaccc15b1a2ffe308ffc2871207c4850af2f05f1392b",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.37048571428571425
+    },
+    {
+      "sample_id": "telecomts:9ce3b4165930d16d00884d047df2062c9686d78463f98b9c88cdc4076ae212be",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.27526666666666666
+    },
+    {
+      "sample_id": "telecomts:eea4445455b7edcbf6896a152b0deee180c6454f43437600ab1bba4a5d8246ce",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Resource Allocation Bugs",
+      "anomaly_probability": 0.2780121212121212
+    },
+    {
+      "sample_id": "telecomts:d329d717e7bbf604fb8230b970bdc0f1e882622dedab4fbae8e9db1627d6855e",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Co-Channel Interference (Mild)",
+      "anomaly_probability": 0.027
+    },
+    {
+      "sample_id": "telecomts:e82d449fb84047d263442186c5e231bd0c8e4249f5ae6156452afc8d8178ee8a",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.3383333333333333
+    },
+    {
+      "sample_id": "telecomts:6fdfcece10959501f3f32b45645a942a404dd41f2ec251b0b89f0a42ee5c9776",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Faulty Handover Algorithm (Too Frequent)",
+      "anomaly_probability": 0.27586666666666665
+    },
+    {
+      "sample_id": "telecomts:fc1a31ae3b61b76abd64df2d64f10730c32b2561045b792cef1c264587854ab9",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.27279999999999993
+    },
+    {
+      "sample_id": "telecomts:83f44cc2bdeec9cf3af3269b9edbb865999912494522f569e8d519fca1b7b2e7",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Faulty RF Filters (Temporal)",
+      "anomaly_probability": 0.14786666666666665
+    },
+    {
+      "sample_id": "telecomts:8bc78ef2dc08ae5921fe3f0148b31af797a8d1a8e09bc80061d9588d7534afd2",
+      "source_file_id": "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+      "label": "Resource Allocation Bugs",
+      "anomaly_probability": 0.3346787878787879
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "aggregation_method": "KPI importance is the sum of absolute SHAP contributions for all engineered features mapped to that KPI. Signed contributions are also summed separately to show net direction.",
+  "permutation_aggregation": "sum of positive feature-level mean score decreases",
+  "scores": [
+    {
+      "kpi": "RSRP",
+      "mean_absolute_shap": 0.04464639419827092,
+      "permutation_importance": 0.05651121597756851,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "PRB_Utilization_DL",
+      "mean_absolute_shap": 0.023796648548063532,
+      "permutation_importance": 0.02295918602731247,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "UL_SNR",
+      "mean_absolute_shap": 0.01724828067194781,
+      "permutation_importance": 0.01108166035117882,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "UL_NumberOfPackets",
+      "mean_absolute_shap": 0.01498041777227368,
+      "permutation_importance": 0.0034504620007621187,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "DL_NumberOfPackets",
+      "mean_absolute_shap": 0.008381398981202789,
+      "permutation_importance": 0.00138081647889321,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "UL_BLER",
+      "mean_absolute_shap": 0.00814530809622089,
+      "permutation_importance": 0.00892772720691585,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "PRBs_DL_Current",
+      "mean_absolute_shap": 0.0073544100376007945,
+      "permutation_importance": 0.008251184177887727,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "UL_NPRB",
+      "mean_absolute_shap": 0.007186499845531697,
+      "permutation_importance": 0.014710996376903577,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "RX_Bytes",
+      "mean_absolute_shap": 0.007157534720509379,
+      "permutation_importance": 0.027053065140868804,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "UL_MCS",
+      "mean_absolute_shap": 0.0070505442179215885,
+      "permutation_importance": 0.00040107469443184657,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "Estimated_UL_Buffer",
+      "mean_absolute_shap": 0.006280341618437834,
+      "permutation_importance": 0.014162523023445856,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "TX_Bytes",
+      "mean_absolute_shap": 0.006187929012423933,
+      "permutation_importance": 0.02571884002948333,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "DL_BLER",
+      "mean_absolute_shap": 0.005465440059611209,
+      "permutation_importance": 0.001044448030375918,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "PRB_Utilization_UL",
+      "mean_absolute_shap": 0.00513877968191203,
+      "permutation_importance": 0.002140083161304244,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "PRBs_UL_Current",
+      "mean_absolute_shap": 0.004299799979724996,
+      "permutation_importance": 0.0034908487360369254,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "DL_MCS",
+      "mean_absolute_shap": 0.001909167070484938,
+      "permutation_importance": 0.00344036136218558,
+      "engineered_feature_count": 15
+    },
+    {
+      "kpi": "DL_Protocol",
+      "mean_absolute_shap": 0.0006874920605655972,
+      "permutation_importance": 0.0,
+      "engineered_feature_count": 5
+    },
+    {
+      "kpi": "UL_Protocol",
+      "mean_absolute_shap": 0.00033013394398449466,
+      "permutation_importance": 7.401486830834377e-17,
+      "engineered_feature_count": 5
+    }
+  ]
+}

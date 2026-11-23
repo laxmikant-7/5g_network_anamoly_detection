@@ -1,0 +1,153 @@
+{
+  "dataset_id": "AliMaatouk/TelecomTS",
+  "dataset_revision": "1b3a88a440f4922edfcd1e230e42c003c0e13bdf",
+  "model_version": "telecomts-binary-1b3a88a4-seed-42",
+  "selected_candidate": "random_forest_unweighted",
+  "decision_threshold": 0.42933333333333323,
+  "threshold_selected_using": "validation only",
+  "final_test_evaluation_count": 1,
+  "test_set_pristine": true,
+  "test_set_history": {
+    "previously_used": false,
+    "test_set_pristine": true,
+    "assessment": "No prior model or evaluation artifacts were found in this workspace before generating this partition. Declare any external prior test use with --historical-test-data-used."
+  },
+  "sample_count": 6352,
+  "source_file_count": 5,
+  "source_files": [
+    "anomalous/jammer/Twitch/processed/chunked.jsonl",
+    "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl",
+    "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl",
+    "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl",
+    "normal/stationary/Zone_B/no_congestion/Twitch/processed/chunked.jsonl"
+  ],
+  "normal_samples": 6013,
+  "anomalous_samples": 339,
+  "missing_anomaly_categories": [],
+  "metrics": {
+    "threshold": 0.42933333333333323,
+    "accuracy": 0.9689861460957179,
+    "precision": 0.7063953488372093,
+    "recall": 0.7168141592920354,
+    "f1": 0.7115666178623717,
+    "f2": 0.7147058823529412,
+    "average_precision": 0.7824764782033349,
+    "roc_auc": 0.9500082662588972,
+    "false_positive_rate": 0.016796939963412607,
+    "confusion_matrix": [
+      [
+        5912,
+        101
+      ],
+      [
+        96,
+        243
+      ]
+    ],
+    "class_wise": {
+      "Normal": {
+        "precision": 0.9840213049267643,
+        "recall": 0.9832030600365874,
+        "f1_score": 0.9836120123117877,
+        "support": 6013
+      },
+      "Anomaly": {
+        "precision": 0.7063953488372093,
+        "recall": 0.7168141592920354,
+        "f1_score": 0.7115666178623719,
+        "support": 339
+      }
+    },
+    "classification_report": {
+      "Normal": {
+        "precision": 0.9840213049267643,
+        "recall": 0.9832030600365874,
+        "f1-score": 0.9836120123117877,
+        "support": 6013.0
+      },
+      "Anomaly": {
+        "precision": 0.7063953488372093,
+        "recall": 0.7168141592920354,
+        "f1-score": 0.7115666178623719,
+        "support": 339.0
+      },
+      "accuracy": 0.9689861460957179,
+      "macro avg": {
+        "precision": 0.8452083268819868,
+        "recall": 0.8500086096643114,
+        "f1-score": 0.8475893150870798,
+        "support": 6352.0
+      },
+      "weighted avg": {
+        "precision": 0.9692046803810528,
+        "recall": 0.9689861460957179,
+        "f1-score": 0.9690932168586468,
+        "support": 6352.0
+      }
+    }
+  },
+  "class_wise_detection": {
+    "Jamming": {
+      "support": 94,
+      "detected": 61,
+      "recall": 0.648936170212766
+    },
+    "Co-Channel Interference (Mild)": {
+      "support": 41,
+      "detected": 23,
+      "recall": 0.5609756097560976
+    },
+    "Buffer Overflow (Gradual Buildup)": {
+      "support": 21,
+      "detected": 21,
+      "recall": 1.0
+    },
+    "Co-Channel Interference (Severe)": {
+      "support": 58,
+      "detected": 57,
+      "recall": 0.9827586206896551
+    },
+    "Antenna Failure": {
+      "support": 33,
+      "detected": 27,
+      "recall": 0.8181818181818182
+    },
+    "Faulty RF Filters (Temporal)": {
+      "support": 26,
+      "detected": 15,
+      "recall": 0.5769230769230769
+    },
+    "High Network Congestion (Gradual Buildup)": {
+      "support": 11,
+      "detected": 5,
+      "recall": 0.45454545454545453
+    },
+    "Doppler Shift (Severe)": {
+      "support": 18,
+      "detected": 18,
+      "recall": 1.0
+    },
+    "Faulty Handover Algorithm (Too Frequent)": {
+      "support": 13,
+      "detected": 8,
+      "recall": 0.6153846153846154
+    },
+    "Resource Allocation Bugs": {
+      "support": 10,
+      "detected": 8,
+      "recall": 0.8
+    },
+    "High Network Congestion (Sudden Spike)": {
+      "support": 14,
+      "detected": 0,
+      "recall": 0.0
+    },
+    "Normal": {
+      "support": 6013,
+      "false_positives": 101,
+      "false_positive_rate": 0.016796939963412607
+    }
+  },
+  "false_positive_samples": 101,
+  "false_negative_samples": 96
+}

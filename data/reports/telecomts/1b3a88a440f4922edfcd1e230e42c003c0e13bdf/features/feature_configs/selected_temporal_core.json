@@ -1,0 +1,1715 @@
+{
+  "feature_set": "selected_temporal_core",
+  "kpi_names": [
+    "RSRP",
+    "DL_BLER",
+    "DL_MCS",
+    "UL_BLER",
+    "UL_MCS",
+    "UL_NPRB",
+    "UL_SNR",
+    "TX_Bytes",
+    "RX_Bytes",
+    "Estimated_UL_Buffer",
+    "PRBs_DL_Current",
+    "PRBs_UL_Current",
+    "PRB_Utilization_DL",
+    "PRB_Utilization_UL",
+    "UL_Protocol",
+    "UL_NumberOfPackets",
+    "DL_Protocol",
+    "DL_NumberOfPackets"
+  ],
+  "processed_kpi_names": [
+    "RSRP",
+    "DL_BLER",
+    "DL_MCS",
+    "UL_BLER",
+    "UL_MCS",
+    "UL_NPRB",
+    "UL_SNR",
+    "TX_Bytes",
+    "RX_Bytes",
+    "Estimated_UL_Buffer",
+    "PRBs_DL_Current",
+    "PRBs_UL_Current",
+    "PRB_Utilization_DL",
+    "PRB_Utilization_UL",
+    "UL_NumberOfPackets",
+    "DL_NumberOfPackets",
+    "UL_Protocol=<empty>",
+    "UL_Protocol=None",
+    "UL_Protocol=TCP",
+    "UL_Protocol=UDP",
+    "UL_Protocol=__MISSING__",
+    "DL_Protocol=<empty>",
+    "DL_Protocol=None",
+    "DL_Protocol=TCP",
+    "DL_Protocol=UDP",
+    "DL_Protocol=__MISSING__"
+  ],
+  "numeric_kpis": [
+    "RSRP",
+    "DL_BLER",
+    "DL_MCS",
+    "UL_BLER",
+    "UL_MCS",
+    "UL_NPRB",
+    "UL_SNR",
+    "TX_Bytes",
+    "RX_Bytes",
+    "Estimated_UL_Buffer",
+    "PRBs_DL_Current",
+    "PRBs_UL_Current",
+    "PRB_Utilization_DL",
+    "PRB_Utilization_UL",
+    "UL_NumberOfPackets",
+    "DL_NumberOfPackets"
+  ],
+  "categorical_kpis": {
+    "UL_Protocol": [
+      "",
+      "None",
+      "TCP",
+      "UDP",
+      "__MISSING__"
+    ],
+    "DL_Protocol": [
+      "",
+      "None",
+      "TCP",
+      "UDP",
+      "__MISSING__"
+    ]
+  },
+  "feature_order": [
+    "RSRP__mean",
+    "RSRP__std",
+    "RSRP__min",
+    "RSRP__max",
+    "RSRP__median",
+    "RSRP__first",
+    "RSRP__last",
+    "RSRP__slope",
+    "RSRP__first_half_mean",
+    "RSRP__second_half_mean",
+    "RSRP__mean_absolute_difference",
+    "RSRP__root_mean_square",
+    "DL_BLER__mean",
+    "DL_BLER__std",
+    "DL_BLER__min",
+    "DL_BLER__max",
+    "DL_BLER__median",
+    "DL_BLER__first",
+    "DL_BLER__last",
+    "DL_BLER__slope",
+    "DL_BLER__first_half_mean",
+    "DL_BLER__second_half_mean",
+    "DL_BLER__mean_absolute_difference",
+    "DL_BLER__root_mean_square",
+    "DL_MCS__mean",
+    "DL_MCS__std",
+    "DL_MCS__min",
+    "DL_MCS__max",
+    "DL_MCS__median",
+    "DL_MCS__first",
+    "DL_MCS__last",
+    "DL_MCS__slope",
+    "DL_MCS__first_half_mean",
+    "DL_MCS__second_half_mean",
+    "DL_MCS__mean_absolute_difference",
+    "DL_MCS__root_mean_square",
+    "UL_BLER__mean",
+    "UL_BLER__std",
+    "UL_BLER__min",
+    "UL_BLER__max",
+    "UL_BLER__median",
+    "UL_BLER__first",
+    "UL_BLER__last",
+    "UL_BLER__slope",
+    "UL_BLER__first_half_mean",
+    "UL_BLER__second_half_mean",
+    "UL_BLER__mean_absolute_difference",
+    "UL_BLER__root_mean_square",
+    "UL_MCS__mean",
+    "UL_MCS__std",
+    "UL_MCS__min",
+    "UL_MCS__max",
+    "UL_MCS__median",
+    "UL_MCS__first",
+    "UL_MCS__last",
+    "UL_MCS__slope",
+    "UL_MCS__first_half_mean",
+    "UL_MCS__second_half_mean",
+    "UL_MCS__mean_absolute_difference",
+    "UL_MCS__root_mean_square",
+    "UL_NPRB__mean",
+    "UL_NPRB__std",
+    "UL_NPRB__min",
+    "UL_NPRB__max",
+    "UL_NPRB__median",
+    "UL_NPRB__first",
+    "UL_NPRB__last",
+    "UL_NPRB__slope",
+    "UL_NPRB__first_half_mean",
+    "UL_NPRB__second_half_mean",
+    "UL_NPRB__mean_absolute_difference",
+    "UL_NPRB__root_mean_square",
+    "UL_SNR__mean",
+    "UL_SNR__std",
+    "UL_SNR__min",
+    "UL_SNR__max",
+    "UL_SNR__median",
+    "UL_SNR__first",
+    "UL_SNR__last",
+    "UL_SNR__slope",
+    "UL_SNR__first_half_mean",
+    "UL_SNR__second_half_mean",
+    "UL_SNR__mean_absolute_difference",
+    "UL_SNR__root_mean_square",
+    "TX_Bytes__mean",
+    "TX_Bytes__std",
+    "TX_Bytes__min",
+    "TX_Bytes__max",
+    "TX_Bytes__median",
+    "TX_Bytes__first",
+    "TX_Bytes__last",
+    "TX_Bytes__slope",
+    "TX_Bytes__first_half_mean",
+    "TX_Bytes__second_half_mean",
+    "TX_Bytes__mean_absolute_difference",
+    "TX_Bytes__root_mean_square",
+    "RX_Bytes__mean",
+    "RX_Bytes__std",
+    "RX_Bytes__min",
+    "RX_Bytes__max",
+    "RX_Bytes__median",
+    "RX_Bytes__first",
+    "RX_Bytes__last",
+    "RX_Bytes__slope",
+    "RX_Bytes__first_half_mean",
+    "RX_Bytes__second_half_mean",
+    "RX_Bytes__mean_absolute_difference",
+    "RX_Bytes__root_mean_square",
+    "Estimated_UL_Buffer__mean",
+    "Estimated_UL_Buffer__std",
+    "Estimated_UL_Buffer__min",
+    "Estimated_UL_Buffer__max",
+    "Estimated_UL_Buffer__median",
+    "Estimated_UL_Buffer__first",
+    "Estimated_UL_Buffer__last",
+    "Estimated_UL_Buffer__slope",
+    "Estimated_UL_Buffer__first_half_mean",
+    "Estimated_UL_Buffer__second_half_mean",
+    "Estimated_UL_Buffer__mean_absolute_difference",
+    "Estimated_UL_Buffer__root_mean_square",
+    "PRBs_DL_Current__mean",
+    "PRBs_DL_Current__std",
+    "PRBs_DL_Current__min",
+    "PRBs_DL_Current__max",
+    "PRBs_DL_Current__median",
+    "PRBs_DL_Current__first",
+    "PRBs_DL_Current__last",
+    "PRBs_DL_Current__slope",
+    "PRBs_DL_Current__first_half_mean",
+    "PRBs_DL_Current__second_half_mean",
+    "PRBs_DL_Current__mean_absolute_difference",
+    "PRBs_DL_Current__root_mean_square",
+    "PRBs_UL_Current__mean",
+    "PRBs_UL_Current__std",
+    "PRBs_UL_Current__min",
+    "PRBs_UL_Current__max",
+    "PRBs_UL_Current__median",
+    "PRBs_UL_Current__first",
+    "PRBs_UL_Current__last",
+    "PRBs_UL_Current__slope",
+    "PRBs_UL_Current__first_half_mean",
+    "PRBs_UL_Current__second_half_mean",
+    "PRBs_UL_Current__mean_absolute_difference",
+    "PRBs_UL_Current__root_mean_square",
+    "PRB_Utilization_DL__mean",
+    "PRB_Utilization_DL__std",
+    "PRB_Utilization_DL__min",
+    "PRB_Utilization_DL__max",
+    "PRB_Utilization_DL__median",
+    "PRB_Utilization_DL__first",
+    "PRB_Utilization_DL__last",
+    "PRB_Utilization_DL__slope",
+    "PRB_Utilization_DL__first_half_mean",
+    "PRB_Utilization_DL__second_half_mean",
+    "PRB_Utilization_DL__mean_absolute_difference",
+    "PRB_Utilization_DL__root_mean_square",
+    "PRB_Utilization_UL__mean",
+    "PRB_Utilization_UL__std",
+    "PRB_Utilization_UL__min",
+    "PRB_Utilization_UL__max",
+    "PRB_Utilization_UL__median",
+    "PRB_Utilization_UL__first",
+    "PRB_Utilization_UL__last",
+    "PRB_Utilization_UL__slope",
+    "PRB_Utilization_UL__first_half_mean",
+    "PRB_Utilization_UL__second_half_mean",
+    "PRB_Utilization_UL__mean_absolute_difference",
+    "PRB_Utilization_UL__root_mean_square",
+    "UL_NumberOfPackets__mean",
+    "UL_NumberOfPackets__std",
+    "UL_NumberOfPackets__min",
+    "UL_NumberOfPackets__max",
+    "UL_NumberOfPackets__median",
+    "UL_NumberOfPackets__first",
+    "UL_NumberOfPackets__last",
+    "UL_NumberOfPackets__slope",
+    "UL_NumberOfPackets__first_half_mean",
+    "UL_NumberOfPackets__second_half_mean",
+    "UL_NumberOfPackets__mean_absolute_difference",
+    "UL_NumberOfPackets__root_mean_square",
+    "DL_NumberOfPackets__mean",
+    "DL_NumberOfPackets__std",
+    "DL_NumberOfPackets__min",
+    "DL_NumberOfPackets__max",
+    "DL_NumberOfPackets__median",
+    "DL_NumberOfPackets__first",
+    "DL_NumberOfPackets__last",
+    "DL_NumberOfPackets__slope",
+    "DL_NumberOfPackets__first_half_mean",
+    "DL_NumberOfPackets__second_half_mean",
+    "DL_NumberOfPackets__mean_absolute_difference",
+    "DL_NumberOfPackets__root_mean_square",
+    "UL_Protocol__frequency__<empty>",
+    "UL_Protocol__frequency__None",
+    "UL_Protocol__frequency__TCP",
+    "UL_Protocol__frequency__UDP",
+    "UL_Protocol__frequency____MISSING__",
+    "DL_Protocol__frequency__<empty>",
+    "DL_Protocol__frequency__None",
+    "DL_Protocol__frequency__TCP",
+    "DL_Protocol__frequency__UDP",
+    "DL_Protocol__frequency____MISSING__"
+  ],
+  "features": [
+    {
+      "name": "RSRP__mean",
+      "kpi": "RSRP",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__std",
+      "kpi": "RSRP",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__min",
+      "kpi": "RSRP",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__max",
+      "kpi": "RSRP",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__median",
+      "kpi": "RSRP",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__first",
+      "kpi": "RSRP",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__last",
+      "kpi": "RSRP",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__slope",
+      "kpi": "RSRP",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__first_half_mean",
+      "kpi": "RSRP",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__second_half_mean",
+      "kpi": "RSRP",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__mean_absolute_difference",
+      "kpi": "RSRP",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "RSRP__root_mean_square",
+      "kpi": "RSRP",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "RSRP"
+    },
+    {
+      "name": "DL_BLER__mean",
+      "kpi": "DL_BLER",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__std",
+      "kpi": "DL_BLER",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__min",
+      "kpi": "DL_BLER",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__max",
+      "kpi": "DL_BLER",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__median",
+      "kpi": "DL_BLER",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__first",
+      "kpi": "DL_BLER",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__last",
+      "kpi": "DL_BLER",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__slope",
+      "kpi": "DL_BLER",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__first_half_mean",
+      "kpi": "DL_BLER",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__second_half_mean",
+      "kpi": "DL_BLER",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__mean_absolute_difference",
+      "kpi": "DL_BLER",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_BLER__root_mean_square",
+      "kpi": "DL_BLER",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "DL_BLER"
+    },
+    {
+      "name": "DL_MCS__mean",
+      "kpi": "DL_MCS",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__std",
+      "kpi": "DL_MCS",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__min",
+      "kpi": "DL_MCS",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__max",
+      "kpi": "DL_MCS",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__median",
+      "kpi": "DL_MCS",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__first",
+      "kpi": "DL_MCS",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__last",
+      "kpi": "DL_MCS",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__slope",
+      "kpi": "DL_MCS",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__first_half_mean",
+      "kpi": "DL_MCS",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__second_half_mean",
+      "kpi": "DL_MCS",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__mean_absolute_difference",
+      "kpi": "DL_MCS",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "DL_MCS__root_mean_square",
+      "kpi": "DL_MCS",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "DL_MCS"
+    },
+    {
+      "name": "UL_BLER__mean",
+      "kpi": "UL_BLER",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__std",
+      "kpi": "UL_BLER",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__min",
+      "kpi": "UL_BLER",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__max",
+      "kpi": "UL_BLER",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__median",
+      "kpi": "UL_BLER",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__first",
+      "kpi": "UL_BLER",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__last",
+      "kpi": "UL_BLER",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__slope",
+      "kpi": "UL_BLER",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__first_half_mean",
+      "kpi": "UL_BLER",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__second_half_mean",
+      "kpi": "UL_BLER",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__mean_absolute_difference",
+      "kpi": "UL_BLER",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_BLER__root_mean_square",
+      "kpi": "UL_BLER",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "UL_BLER"
+    },
+    {
+      "name": "UL_MCS__mean",
+      "kpi": "UL_MCS",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__std",
+      "kpi": "UL_MCS",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__min",
+      "kpi": "UL_MCS",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__max",
+      "kpi": "UL_MCS",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__median",
+      "kpi": "UL_MCS",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__first",
+      "kpi": "UL_MCS",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__last",
+      "kpi": "UL_MCS",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__slope",
+      "kpi": "UL_MCS",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__first_half_mean",
+      "kpi": "UL_MCS",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__second_half_mean",
+      "kpi": "UL_MCS",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__mean_absolute_difference",
+      "kpi": "UL_MCS",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_MCS__root_mean_square",
+      "kpi": "UL_MCS",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "UL_MCS"
+    },
+    {
+      "name": "UL_NPRB__mean",
+      "kpi": "UL_NPRB",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__std",
+      "kpi": "UL_NPRB",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__min",
+      "kpi": "UL_NPRB",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__max",
+      "kpi": "UL_NPRB",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__median",
+      "kpi": "UL_NPRB",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__first",
+      "kpi": "UL_NPRB",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__last",
+      "kpi": "UL_NPRB",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__slope",
+      "kpi": "UL_NPRB",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__first_half_mean",
+      "kpi": "UL_NPRB",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__second_half_mean",
+      "kpi": "UL_NPRB",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__mean_absolute_difference",
+      "kpi": "UL_NPRB",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_NPRB__root_mean_square",
+      "kpi": "UL_NPRB",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NPRB"
+    },
+    {
+      "name": "UL_SNR__mean",
+      "kpi": "UL_SNR",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__std",
+      "kpi": "UL_SNR",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__min",
+      "kpi": "UL_SNR",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__max",
+      "kpi": "UL_SNR",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__median",
+      "kpi": "UL_SNR",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__first",
+      "kpi": "UL_SNR",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__last",
+      "kpi": "UL_SNR",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__slope",
+      "kpi": "UL_SNR",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__first_half_mean",
+      "kpi": "UL_SNR",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__second_half_mean",
+      "kpi": "UL_SNR",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__mean_absolute_difference",
+      "kpi": "UL_SNR",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "UL_SNR__root_mean_square",
+      "kpi": "UL_SNR",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "UL_SNR"
+    },
+    {
+      "name": "TX_Bytes__mean",
+      "kpi": "TX_Bytes",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__std",
+      "kpi": "TX_Bytes",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__min",
+      "kpi": "TX_Bytes",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__max",
+      "kpi": "TX_Bytes",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__median",
+      "kpi": "TX_Bytes",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__first",
+      "kpi": "TX_Bytes",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__last",
+      "kpi": "TX_Bytes",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__slope",
+      "kpi": "TX_Bytes",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__first_half_mean",
+      "kpi": "TX_Bytes",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__second_half_mean",
+      "kpi": "TX_Bytes",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__mean_absolute_difference",
+      "kpi": "TX_Bytes",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "TX_Bytes__root_mean_square",
+      "kpi": "TX_Bytes",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "TX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__mean",
+      "kpi": "RX_Bytes",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__std",
+      "kpi": "RX_Bytes",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__min",
+      "kpi": "RX_Bytes",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__max",
+      "kpi": "RX_Bytes",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__median",
+      "kpi": "RX_Bytes",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__first",
+      "kpi": "RX_Bytes",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__last",
+      "kpi": "RX_Bytes",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__slope",
+      "kpi": "RX_Bytes",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__first_half_mean",
+      "kpi": "RX_Bytes",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__second_half_mean",
+      "kpi": "RX_Bytes",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__mean_absolute_difference",
+      "kpi": "RX_Bytes",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "RX_Bytes__root_mean_square",
+      "kpi": "RX_Bytes",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "RX_Bytes"
+    },
+    {
+      "name": "Estimated_UL_Buffer__mean",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__std",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__min",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__max",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__median",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__first",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__last",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__slope",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__first_half_mean",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__second_half_mean",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__mean_absolute_difference",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "Estimated_UL_Buffer__root_mean_square",
+      "kpi": "Estimated_UL_Buffer",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "Estimated_UL_Buffer"
+    },
+    {
+      "name": "PRBs_DL_Current__mean",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__std",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__min",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__max",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__median",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__first",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__last",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__slope",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__first_half_mean",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__second_half_mean",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__mean_absolute_difference",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_DL_Current__root_mean_square",
+      "kpi": "PRBs_DL_Current",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_DL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__mean",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__std",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__min",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__max",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__median",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__first",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__last",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__slope",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__first_half_mean",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__second_half_mean",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__mean_absolute_difference",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRBs_UL_Current__root_mean_square",
+      "kpi": "PRBs_UL_Current",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "PRBs_UL_Current"
+    },
+    {
+      "name": "PRB_Utilization_DL__mean",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__std",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__min",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__max",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__median",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__first",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__last",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__slope",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__first_half_mean",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__second_half_mean",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__mean_absolute_difference",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_DL__root_mean_square",
+      "kpi": "PRB_Utilization_DL",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_DL"
+    },
+    {
+      "name": "PRB_Utilization_UL__mean",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__std",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__min",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__max",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__median",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__first",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__last",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__slope",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__first_half_mean",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__second_half_mean",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__mean_absolute_difference",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "PRB_Utilization_UL__root_mean_square",
+      "kpi": "PRB_Utilization_UL",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "PRB_Utilization_UL"
+    },
+    {
+      "name": "UL_NumberOfPackets__mean",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__std",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__min",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__max",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__median",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__first",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__last",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__slope",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__first_half_mean",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__second_half_mean",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__mean_absolute_difference",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "UL_NumberOfPackets__root_mean_square",
+      "kpi": "UL_NumberOfPackets",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "UL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__mean",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "mean",
+      "feature_group": "base",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__std",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "std",
+      "feature_group": "base",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__min",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "min",
+      "feature_group": "base",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__max",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "max",
+      "feature_group": "base",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__median",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "median",
+      "feature_group": "base",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__first",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "first",
+      "feature_group": "base",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__last",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "last",
+      "feature_group": "base",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__slope",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "slope",
+      "feature_group": "temporal",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__first_half_mean",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "first_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__second_half_mean",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "second_half_mean",
+      "feature_group": "temporal",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__mean_absolute_difference",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "mean_absolute_difference",
+      "feature_group": "temporal",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "DL_NumberOfPackets__root_mean_square",
+      "kpi": "DL_NumberOfPackets",
+      "statistic": "root_mean_square",
+      "feature_group": "temporal",
+      "source_kpi": "DL_NumberOfPackets"
+    },
+    {
+      "name": "UL_Protocol__frequency__<empty>",
+      "kpi": "UL_Protocol=<empty>",
+      "statistic": "category_frequency",
+      "category": "",
+      "source_kpi": "UL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "UL_Protocol__frequency__None",
+      "kpi": "UL_Protocol=None",
+      "statistic": "category_frequency",
+      "category": "None",
+      "source_kpi": "UL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "UL_Protocol__frequency__TCP",
+      "kpi": "UL_Protocol=TCP",
+      "statistic": "category_frequency",
+      "category": "TCP",
+      "source_kpi": "UL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "UL_Protocol__frequency__UDP",
+      "kpi": "UL_Protocol=UDP",
+      "statistic": "category_frequency",
+      "category": "UDP",
+      "source_kpi": "UL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "UL_Protocol__frequency____MISSING__",
+      "kpi": "UL_Protocol=__MISSING__",
+      "statistic": "category_frequency",
+      "category": "__MISSING__",
+      "source_kpi": "UL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "DL_Protocol__frequency__<empty>",
+      "kpi": "DL_Protocol=<empty>",
+      "statistic": "category_frequency",
+      "category": "",
+      "source_kpi": "DL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "DL_Protocol__frequency__None",
+      "kpi": "DL_Protocol=None",
+      "statistic": "category_frequency",
+      "category": "None",
+      "source_kpi": "DL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "DL_Protocol__frequency__TCP",
+      "kpi": "DL_Protocol=TCP",
+      "statistic": "category_frequency",
+      "category": "TCP",
+      "source_kpi": "DL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "DL_Protocol__frequency__UDP",
+      "kpi": "DL_Protocol=UDP",
+      "statistic": "category_frequency",
+      "category": "UDP",
+      "source_kpi": "DL_Protocol",
+      "feature_group": "categorical_frequency"
+    },
+    {
+      "name": "DL_Protocol__frequency____MISSING__",
+      "kpi": "DL_Protocol=__MISSING__",
+      "statistic": "category_frequency",
+      "category": "__MISSING__",
+      "source_kpi": "DL_Protocol",
+      "feature_group": "categorical_frequency"
+    }
+  ]
+}

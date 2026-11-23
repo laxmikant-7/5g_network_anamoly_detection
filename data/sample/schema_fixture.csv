@@ -1,0 +1,4 @@
+timestamp,entity_id,layer,anomaly_type
+2024-01-01T00:00:00Z,gnb-1,phy,normal
+2024-01-01T00:01:00Z,gnb-1,mac,congestion
+2024-01-01T00:02:00Z,gnb-2,rrc,handover_failure

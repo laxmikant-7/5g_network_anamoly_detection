@@ -1,0 +1,6 @@
+{
+  "state": "completed",
+  "test_evaluation_count": 1,
+  "model_version": "telecomts-binary-1b3a88a4-seed-42",
+  "test_partition_loaded": true
+}

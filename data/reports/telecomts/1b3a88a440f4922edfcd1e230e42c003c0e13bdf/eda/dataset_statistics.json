@@ -1,0 +1,664 @@
+{
+  "dataset_id": "AliMaatouk/TelecomTS",
+  "dataset_revision": "1b3a88a440f4922edfcd1e230e42c003c0e13bdf",
+  "processed_samples_seen": 32000,
+  "valid_samples": 32000,
+  "normal_samples": 30765,
+  "anomalous_samples": 1235,
+  "source_file_count": 33,
+  "label_distribution": {
+    "Normal": 30765,
+    "Jamming": 279,
+    "Co-Channel Interference (Mild)": 146,
+    "Buffer Overflow (Gradual Buildup)": 138,
+    "Co-Channel Interference (Severe)": 114,
+    "Antenna Failure": 107,
+    "Faulty RF Filters (Temporal)": 100,
+    "High Network Congestion (Gradual Buildup)": 93,
+    "Doppler Shift (Severe)": 86,
+    "Faulty Handover Algorithm (Too Frequent)": 64,
+    "Resource Allocation Bugs": 60,
+    "High Network Congestion (Sudden Spike)": 48
+  },
+  "numeric_kpi_statistics": {
+    "RSRP": {
+      "mean": -106.16073543361249,
+      "standard_deviation": 10.578353105674868,
+      "minimum": -141.0,
+      "q1_sampled": -115.0,
+      "median_sampled": -110.0,
+      "q3_sampled": -102.0,
+      "maximum": -48.0
+    },
+    "DL_BLER": {
+      "mean": 0.09125664517112317,
+      "standard_deviation": 0.2734902165675795,
+      "minimum": 0.0,
+      "q1_sampled": 0.0,
+      "median_sampled": 0.0,
+      "q3_sampled": 0.0007199999999999,
+      "maximum": 1.181638
+    },
+    "DL_MCS": {
+      "mean": 6.8325109960937525,
+      "standard_deviation": 0.5380216163812852,
+      "minimum": 0.0,
+      "q1_sampled": 7.0,
+      "median_sampled": 7.0,
+      "q3_sampled": 7.0,
+      "maximum": 11.61
+    },
+    "UL_BLER": {
+      "mean": 0.06432080810281542,
+      "standard_deviation": 0.053822327627578104,
+      "minimum": 0.0,
+      "q1_sampled": 0.0001099,
+      "median_sampled": 0.0690427999999999,
+      "q3_sampled": 0.0998415,
+      "maximum": 0.999994988179738
+    },
+    "UL_MCS": {
+      "mean": 14.045883578893328,
+      "standard_deviation": 4.559048558207042,
+      "minimum": 0.0,
+      "q1_sampled": 9.0,
+      "median_sampled": 15.0,
+      "q3_sampled": 16.0,
+      "maximum": 27.0
+    },
+    "UL_NPRB": {
+      "mean": 12.678394184086647,
+      "standard_deviation": 8.881024310344927,
+      "minimum": 0.09,
+      "q1_sampled": 5.0,
+      "median_sampled": 10.35,
+      "q3_sampled": 17.7,
+      "maximum": 106.0
+    },
+    "UL_SNR": {
+      "mean": 20.369868759796205,
+      "standard_deviation": 2.2346811417637062,
+      "minimum": -2.8263281424406754,
+      "q1_sampled": 19.215,
+      "median_sampled": 20.46,
+      "q3_sampled": 21.65,
+      "maximum": 58.97
+    },
+    "TX_Bytes": {
+      "mean": 172967.20093432616,
+      "standard_deviation": 487617.98066250986,
+      "minimum": 0.0,
+      "q1_sampled": 153.0,
+      "median_sampled": 89628.0,
+      "q3_sampled": 432870.0,
+      "maximum": 455536749.0
+    },
+    "RX_Bytes": {
+      "mean": 3249.3078420410156,
+      "standard_deviation": 13201.539503283233,
+      "minimum": 0.0,
+      "q1_sampled": 209.0,
+      "median_sampled": 2643.0,
+      "q3_sampled": 5296.0,
+      "maximum": 12812903.0
+    },
+    "Estimated_UL_Buffer": {
+      "mean": 498.22418887014874,
+      "standard_deviation": 4727.5276619398,
+      "minimum": 0.0,
+      "q1_sampled": 0.0,
+      "median_sampled": 165.36,
+      "q3_sampled": 350.57,
+      "maximum": 207501.3561962249
+    },
+    "PRBs_DL_Current": {
+      "mean": 26.74471615446177,
+      "standard_deviation": 27.64755911602203,
+      "minimum": 0.0,
+      "q1_sampled": 0.0,
+      "median_sampled": 15.86,
+      "q3_sampled": 62.56,
+      "maximum": 106.0
+    },
+    "PRBs_UL_Current": {
+      "mean": 0.8914051596393511,
+      "standard_deviation": 1.3555285202217378,
+      "minimum": 0.0,
+      "q1_sampled": 0.05,
+      "median_sampled": 0.61,
+      "q3_sampled": 1.4,
+      "maximum": 106.0
+    },
+    "PRB_Utilization_DL": {
+      "mean": 25.42409459278668,
+      "standard_deviation": 26.252088525266753,
+      "minimum": 0.0,
+      "q1_sampled": 0.0,
+      "median_sampled": 15.0,
+      "q3_sampled": 59.0188,
+      "maximum": 100.0
+    },
+    "PRB_Utilization_UL": {
+      "mean": 0.9350566970932791,
+      "standard_deviation": 2.21506344785738,
+      "minimum": 0.0,
+      "q1_sampled": 0.0472,
+      "median_sampled": 0.585,
+      "q3_sampled": 1.3491,
+      "maximum": 100.0
+    },
+    "UL_NumberOfPackets": {
+      "mean": 30.069668747749255,
+      "standard_deviation": 108.74955917735656,
+      "minimum": 0.0,
+      "q1_sampled": 0.0,
+      "median_sampled": 16.0,
+      "q3_sampled": 49.0,
+      "maximum": 10647.07992483297
+    },
+    "DL_NumberOfPackets": {
+      "mean": 104.09182119142748,
+      "standard_deviation": 189.5248399874516,
+      "minimum": 0.0,
+      "q1_sampled": 0.0,
+      "median_sampled": 37.0,
+      "q3_sampled": 156.0,
+      "maximum": 9663.37946150507
+    }
+  },
+  "numeric_kpi_correlation": {
+    "RSRP": {
+      "RSRP": 1.0,
+      "DL_BLER": -0.19230883645815341,
+      "DL_MCS": 0.22273949119106384,
+      "UL_BLER": -0.21460585185772757,
+      "UL_MCS": 0.21359558834212722,
+      "UL_NPRB": -0.16721551873866072,
+      "UL_SNR": 0.15573145952835882,
+      "TX_Bytes": -0.07073199317574444,
+      "RX_Bytes": -0.04251648371835619,
+      "Estimated_UL_Buffer": -0.006888554664430366,
+      "PRBs_DL_Current": -0.1965996298599827,
+      "PRBs_UL_Current": -0.133008217029466,
+      "PRB_Utilization_DL": -0.20152170597238755,
+      "PRB_Utilization_UL": -0.09706127509313259,
+      "UL_NumberOfPackets": -0.05977440727729584,
+      "DL_NumberOfPackets": -0.13367415079530284
+    },
+    "DL_BLER": {
+      "RSRP": -0.19230883645815341,
+      "DL_BLER": 0.9999999999999998,
+      "DL_MCS": -0.5280332159068953,
+      "UL_BLER": 0.02830972475145889,
+      "UL_MCS": -0.08519439560529447,
+      "UL_NPRB": 0.06546158887524516,
+      "UL_SNR": -0.06475655244991844,
+      "TX_Bytes": -0.06311997822133397,
+      "RX_Bytes": -0.01048191046208698,
+      "Estimated_UL_Buffer": -0.009848204854391564,
+      "PRBs_DL_Current": -0.1578000905541743,
+      "PRBs_UL_Current": -0.02345246622132926,
+      "PRB_Utilization_DL": -0.15900706007617876,
+      "PRB_Utilization_UL": -0.026286450962885715,
+      "UL_NumberOfPackets": -0.032867728201153246,
+      "DL_NumberOfPackets": -0.08348872646039172
+    },
+    "DL_MCS": {
+      "RSRP": 0.22273949119106384,
+      "DL_BLER": -0.5280332159068953,
+      "DL_MCS": 0.9999999999999998,
+      "UL_BLER": -0.006667145579642121,
+      "UL_MCS": 0.2040230926292257,
+      "UL_NPRB": 0.005815858001679159,
+      "UL_SNR": 0.14317417024776913,
+      "TX_Bytes": 0.06308575355406422,
+      "RX_Bytes": 0.022813599914418264,
+      "Estimated_UL_Buffer": -0.037262151432408026,
+      "PRBs_DL_Current": 0.15595870418025304,
+      "PRBs_UL_Current": 0.04932450280484385,
+      "PRB_Utilization_DL": 0.13926257963591823,
+      "PRB_Utilization_UL": -0.01858428885244816,
+      "UL_NumberOfPackets": 0.012138660474863592,
+      "DL_NumberOfPackets": 0.05610300656765016
+    },
+    "UL_BLER": {
+      "RSRP": -0.21460585185772757,
+      "DL_BLER": 0.02830972475145889,
+      "DL_MCS": -0.006667145579642121,
+      "UL_BLER": 1.0000000000000002,
+      "UL_MCS": 0.4529327618492324,
+      "UL_NPRB": 0.5014469178102268,
+      "UL_SNR": -0.23641256354145884,
+      "TX_Bytes": 0.19075933958423386,
+      "RX_Bytes": 0.11340063951032459,
+      "Estimated_UL_Buffer": 0.3289197612853227,
+      "PRBs_DL_Current": 0.5317863116559433,
+      "PRBs_UL_Current": 0.31481191573779266,
+      "PRB_Utilization_DL": 0.5500595401469319,
+      "PRB_Utilization_UL": 0.39516598809295633,
+      "UL_NumberOfPackets": 0.22634010108842992,
+      "DL_NumberOfPackets": 0.3378979856919065
+    },
+    "UL_MCS": {
+      "RSRP": 0.21359558834212722,
+      "DL_BLER": -0.08519439560529447,
+      "DL_MCS": 0.2040230926292257,
+      "UL_BLER": 0.4529327618492324,
+      "UL_MCS": 1.0000000000000002,
+      "UL_NPRB": 0.23024598686351427,
+      "UL_SNR": -0.07137630958172894,
+      "TX_Bytes": 0.10734686533259577,
+      "RX_Bytes": 0.06491964466617171,
+      "Estimated_UL_Buffer": 0.06924791574216467,
+      "PRBs_DL_Current": 0.2935710434566079,
+      "PRBs_UL_Current": 0.1369148764090966,
+      "PRB_Utilization_DL": 0.2897750339414563,
+      "PRB_Utilization_UL": 0.06947677188512227,
+      "UL_NumberOfPackets": 0.06903106961622597,
+      "DL_NumberOfPackets": 0.14608822542090558
+    },
+    "UL_NPRB": {
+      "RSRP": -0.16721551873866072,
+      "DL_BLER": 0.06546158887524516,
+      "DL_MCS": 0.005815858001679159,
+      "UL_BLER": 0.5014469178102268,
+      "UL_MCS": 0.23024598686351427,
+      "UL_NPRB": 0.9999999999999998,
+      "UL_SNR": -0.2331959734702382,
+      "TX_Bytes": 0.25449293027759473,
+      "RX_Bytes": 0.17556297469563095,
+      "Estimated_UL_Buffer": 0.18415043229079903,
+      "PRBs_DL_Current": 0.678742981316842,
+      "PRBs_UL_Current": 0.5366344941701323,
+      "PRB_Utilization_DL": 0.6880981443382067,
+      "PRB_Utilization_UL": 0.44563230403985304,
+      "UL_NumberOfPackets": 0.24627299047984608,
+      "DL_NumberOfPackets": 0.38786617696946374
+    },
+    "UL_SNR": {
+      "RSRP": 0.15573145952835882,
+      "DL_BLER": -0.06475655244991844,
+      "DL_MCS": 0.14317417024776913,
+      "UL_BLER": -0.23641256354145884,
+      "UL_MCS": -0.07137630958172894,
+      "UL_NPRB": -0.2331959734702382,
+      "UL_SNR": 1.0000000000000002,
+      "TX_Bytes": -0.08133953442434498,
+      "RX_Bytes": -0.042316029655636946,
+      "Estimated_UL_Buffer": -0.02779419848132977,
+      "PRBs_DL_Current": -0.23334711572592945,
+      "PRBs_UL_Current": -0.11431978948910435,
+      "PRB_Utilization_DL": -0.2508295018837476,
+      "PRB_Utilization_UL": -0.09579928101524425,
+      "UL_NumberOfPackets": -0.07499953324118369,
+      "DL_NumberOfPackets": -0.1548266241317493
+    },
+    "TX_Bytes": {
+      "RSRP": -0.07073199317574444,
+      "DL_BLER": -0.06311997822133397,
+      "DL_MCS": 0.06308575355406422,
+      "UL_BLER": 0.19075933958423386,
+      "UL_MCS": 0.10734686533259577,
+      "UL_NPRB": 0.25449293027759473,
+      "UL_SNR": -0.08133953442434498,
+      "TX_Bytes": 1.0,
+      "RX_Bytes": 0.9503523436248256,
+      "Estimated_UL_Buffer": 0.007992430727048819,
+      "PRBs_DL_Current": 0.3780299243236923,
+      "PRBs_UL_Current": 0.17432567339663105,
+      "PRB_Utilization_DL": 0.37482043022046524,
+      "PRB_Utilization_UL": 0.09113050487139707,
+      "UL_NumberOfPackets": 0.08009653518209843,
+      "DL_NumberOfPackets": 0.1945233160908524
+    },
+    "RX_Bytes": {
+      "RSRP": -0.04251648371835619,
+      "DL_BLER": -0.01048191046208698,
+      "DL_MCS": 0.022813599914418264,
+      "UL_BLER": 0.11340063951032459,
+      "UL_MCS": 0.06491964466617171,
+      "UL_NPRB": 0.17556297469563095,
+      "UL_SNR": -0.042316029655636946,
+      "TX_Bytes": 0.9503523436248256,
+      "RX_Bytes": 0.9999999999999998,
+      "Estimated_UL_Buffer": 0.013498916480158074,
+      "PRBs_DL_Current": 0.1690865537446117,
+      "PRBs_UL_Current": 0.21034551825434453,
+      "PRB_Utilization_DL": 0.16726343552034495,
+      "PRB_Utilization_UL": 0.11457588183000879,
+      "UL_NumberOfPackets": 0.03627700807862003,
+      "DL_NumberOfPackets": 0.07697309163116928
+    },
+    "Estimated_UL_Buffer": {
+      "RSRP": -0.006888554664430366,
+      "DL_BLER": -0.009848204854391564,
+      "DL_MCS": -0.037262151432408026,
+      "UL_BLER": 0.3289197612853227,
+      "UL_MCS": 0.06924791574216467,
+      "UL_NPRB": 0.18415043229079903,
+      "UL_SNR": -0.02779419848132977,
+      "TX_Bytes": 0.007992430727048819,
+      "RX_Bytes": 0.013498916480158074,
+      "Estimated_UL_Buffer": 1.0,
+      "PRBs_DL_Current": 0.04522741951909173,
+      "PRBs_UL_Current": 0.06547688759862474,
+      "PRB_Utilization_DL": 0.08667348419823628,
+      "PRB_Utilization_UL": 0.6540706024634831,
+      "UL_NumberOfPackets": 0.4429109032706012,
+      "DL_NumberOfPackets": 0.244688200354266
+    },
+    "PRBs_DL_Current": {
+      "RSRP": -0.1965996298599827,
+      "DL_BLER": -0.1578000905541743,
+      "DL_MCS": 0.15595870418025304,
+      "UL_BLER": 0.5317863116559433,
+      "UL_MCS": 0.2935710434566079,
+      "UL_NPRB": 0.678742981316842,
+      "UL_SNR": -0.23334711572592945,
+      "TX_Bytes": 0.3780299243236923,
+      "RX_Bytes": 0.1690865537446117,
+      "Estimated_UL_Buffer": 0.04522741951909173,
+      "PRBs_DL_Current": 0.9999999999999999,
+      "PRBs_UL_Current": 0.46310463824240516,
+      "PRB_Utilization_DL": 0.9951313509300255,
+      "PRB_Utilization_UL": 0.26776972402164373,
+      "UL_NumberOfPackets": 0.2339388079721906,
+      "DL_NumberOfPackets": 0.5190112611208998
+    },
+    "PRBs_UL_Current": {
+      "RSRP": -0.133008217029466,
+      "DL_BLER": -0.02345246622132926,
+      "DL_MCS": 0.04932450280484385,
+      "UL_BLER": 0.31481191573779266,
+      "UL_MCS": 0.1369148764090966,
+      "UL_NPRB": 0.5366344941701323,
+      "UL_SNR": -0.11431978948910435,
+      "TX_Bytes": 0.17432567339663105,
+      "RX_Bytes": 0.21034551825434453,
+      "Estimated_UL_Buffer": 0.06547688759862474,
+      "PRBs_DL_Current": 0.46310463824240516,
+      "PRBs_UL_Current": 0.9999999999999999,
+      "PRB_Utilization_DL": 0.4601484936214644,
+      "PRB_Utilization_UL": 0.5719587529370213,
+      "UL_NumberOfPackets": 0.10831407752701683,
+      "DL_NumberOfPackets": 0.21264596554681298
+    },
+    "PRB_Utilization_DL": {
+      "RSRP": -0.20152170597238755,
+      "DL_BLER": -0.15900706007617876,
+      "DL_MCS": 0.13926257963591823,
+      "UL_BLER": 0.5500595401469319,
+      "UL_MCS": 0.2897750339414563,
+      "UL_NPRB": 0.6880981443382067,
+      "UL_SNR": -0.2508295018837476,
+      "TX_Bytes": 0.37482043022046524,
+      "RX_Bytes": 0.16726343552034495,
+      "Estimated_UL_Buffer": 0.08667348419823628,
+      "PRBs_DL_Current": 0.9951313509300255,
+      "PRBs_UL_Current": 0.4601484936214644,
+      "PRB_Utilization_DL": 1.0000000000000002,
+      "PRB_Utilization_UL": 0.31661881685126864,
+      "UL_NumberOfPackets": 0.2577867530710349,
+      "DL_NumberOfPackets": 0.5325951995225886
+    },
+    "PRB_Utilization_UL": {
+      "RSRP": -0.09706127509313259,
+      "DL_BLER": -0.026286450962885715,
+      "DL_MCS": -0.01858428885244816,
+      "UL_BLER": 0.39516598809295633,
+      "UL_MCS": 0.06947677188512227,
+      "UL_NPRB": 0.44563230403985304,
+      "UL_SNR": -0.09579928101524425,
+      "TX_Bytes": 0.09113050487139707,
+      "RX_Bytes": 0.11457588183000879,
+      "Estimated_UL_Buffer": 0.6540706024634831,
+      "PRBs_DL_Current": 0.26776972402164373,
+      "PRBs_UL_Current": 0.5719587529370213,
+      "PRB_Utilization_DL": 0.31661881685126864,
+      "PRB_Utilization_UL": 1.0,
+      "UL_NumberOfPackets": 0.3940759386583011,
+      "DL_NumberOfPackets": 0.3279306032431266
+    },
+    "UL_NumberOfPackets": {
+      "RSRP": -0.05977440727729584,
+      "DL_BLER": -0.032867728201153246,
+      "DL_MCS": 0.012138660474863592,
+      "UL_BLER": 0.22634010108842992,
+      "UL_MCS": 0.06903106961622597,
+      "UL_NPRB": 0.24627299047984608,
+      "UL_SNR": -0.07499953324118369,
+      "TX_Bytes": 0.08009653518209843,
+      "RX_Bytes": 0.03627700807862003,
+      "Estimated_UL_Buffer": 0.4429109032706012,
+      "PRBs_DL_Current": 0.2339388079721906,
+      "PRBs_UL_Current": 0.10831407752701683,
+      "PRB_Utilization_DL": 0.2577867530710349,
+      "PRB_Utilization_UL": 0.3940759386583011,
+      "UL_NumberOfPackets": 0.9999999999999999,
+      "DL_NumberOfPackets": 0.6572481004363072
+    },
+    "DL_NumberOfPackets": {
+      "RSRP": -0.13367415079530284,
+      "DL_BLER": -0.08348872646039172,
+      "DL_MCS": 0.05610300656765016,
+      "UL_BLER": 0.3378979856919065,
+      "UL_MCS": 0.14608822542090558,
+      "UL_NPRB": 0.38786617696946374,
+      "UL_SNR": -0.1548266241317493,
+      "TX_Bytes": 0.1945233160908524,
+      "RX_Bytes": 0.07697309163116928,
+      "Estimated_UL_Buffer": 0.244688200354266,
+      "PRBs_DL_Current": 0.5190112611208998,
+      "PRBs_UL_Current": 0.21264596554681298,
+      "PRB_Utilization_DL": 0.5325951995225886,
+      "PRB_Utilization_UL": 0.3279306032431266,
+      "UL_NumberOfPackets": 0.6572481004363072,
+      "DL_NumberOfPackets": 1.0
+    }
+  },
+  "categorical_distributions": {
+    "UL_Protocol": {
+      "": 15374,
+      "None": 1365949,
+      "TCP": 2662170,
+      "UDP": 52507
+    },
+    "DL_Protocol": {
+      "": 15465,
+      "None": 1491990,
+      "TCP": 2535290,
+      "UDP": 53255
+    }
+  },
+  "source_file_distribution": {
+    "anomalous/jammer/File/processed/chunked.jsonl": {
+      "total": 93,
+      "normal": 0,
+      "anomalous": 93
+    },
+    "anomalous/jammer/Twitch/processed/chunked.jsonl": {
+      "total": 94,
+      "normal": 0,
+      "anomalous": 94
+    },
+    "anomalous/jammer/YouTube/processed/chunked.jsonl": {
+      "total": 92,
+      "normal": 0,
+      "anomalous": 92
+    },
+    "anomalous/synthetic/Zone_A/File/processed/chunked.jsonl": {
+      "total": 66,
+      "normal": 0,
+      "anomalous": 66
+    },
+    "anomalous/synthetic/Zone_A/Twitch/processed/chunked.jsonl": {
+      "total": 98,
+      "normal": 0,
+      "anomalous": 98
+    },
+    "anomalous/synthetic/Zone_A/YouTube/processed/chunked.jsonl": {
+      "total": 147,
+      "normal": 0,
+      "anomalous": 147
+    },
+    "anomalous/synthetic/Zone_B/File/processed/chunked.jsonl": {
+      "total": 137,
+      "normal": 0,
+      "anomalous": 137
+    },
+    "anomalous/synthetic/Zone_B/Twitch/processed/chunked.jsonl": {
+      "total": 99,
+      "normal": 0,
+      "anomalous": 99
+    },
+    "anomalous/synthetic/Zone_B/YouTube/processed/chunked.jsonl": {
+      "total": 69,
+      "normal": 0,
+      "anomalous": 69
+    },
+    "anomalous/synthetic/Zone_C/File/processed/chunked.jsonl": {
+      "total": 136,
+      "normal": 0,
+      "anomalous": 136
+    },
+    "anomalous/synthetic/Zone_C/Twitch/processed/chunked.jsonl": {
+      "total": 79,
+      "normal": 0,
+      "anomalous": 79
+    },
+    "anomalous/synthetic/Zone_C/YouTube/processed/chunked.jsonl": {
+      "total": 125,
+      "normal": 0,
+      "anomalous": 125
+    },
+    "normal/mobile/File/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/mobile/Twitch/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/mobile/YouTube/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_A/congestion/File/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_A/congestion/Twitch/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_A/congestion/YouTube/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_A/no_congestion/File/processed/chunked.jsonl": {
+      "total": 3007,
+      "normal": 3007,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_A/no_congestion/Twitch/processed/chunked.jsonl": {
+      "total": 3007,
+      "normal": 3007,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_A/no_congestion/YouTube/processed/chunked.jsonl": {
+      "total": 3007,
+      "normal": 3007,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_B/congestion/File/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_B/congestion/Twitch/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_B/congestion/YouTube/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_B/no_congestion/File/processed/chunked.jsonl": {
+      "total": 3006,
+      "normal": 3006,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_B/no_congestion/Twitch/processed/chunked.jsonl": {
+      "total": 3006,
+      "normal": 3006,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_B/no_congestion/YouTube/processed/chunked.jsonl": {
+      "total": 3006,
+      "normal": 3006,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_C/congestion/File/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_C/congestion/Twitch/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_C/congestion/YouTube/processed/chunked.jsonl": {
+      "total": 309,
+      "normal": 309,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_C/no_congestion/File/processed/chunked.jsonl": {
+      "total": 3006,
+      "normal": 3006,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_C/no_congestion/Twitch/processed/chunked.jsonl": {
+      "total": 3006,
+      "normal": 3006,
+      "anomalous": 0
+    },
+    "normal/stationary/Zone_C/no_congestion/YouTube/processed/chunked.jsonl": {
+      "total": 3006,
+      "normal": 3006,
+      "anomalous": 0
+    }
+  },
+  "temporal_annotations": {
+    "samples_with_intervals": 1235,
+    "samples_with_affected_kpi_annotations": 1235,
+    "start_mean": 18.102024291497976,
+    "end_mean": 108.9085020242915,
+    "duration_mean": 91.80647773279352,
+    "duration_median": 121.0
+  },
+  "distribution_sampling": {
+    "method": "take every 16th timestep from each valid sample",
+    "sampled_timestep_count": 256000
+  },
+  "figure_files": [
+    "01_label_distribution.png",
+    "02_anomaly_categories.png",
+    "03_numeric_kpi_distributions.png",
+    "04_numeric_kpi_correlations.png",
+    "05_selected_time_series.png",
+    "06_normal_anomaly_kpi_comparison.png",
+    "07_source_file_distribution.png",
+    "08_temporal_anomaly_intervals.png",
+    "09_missing_value_analysis.png",
+    "10_categorical_distributions.png"
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "sample_count": 227,
+  "supported_classes": [
+    "Jamming",
+    "Co-Channel Interference (Mild)",
+    "Buffer Overflow (Gradual Buildup)",
+    "Co-Channel Interference (Severe)",
+    "Antenna Failure",
+    "Faulty RF Filters (Temporal)",
+    "High Network Congestion (Gradual Buildup)",
+    "Doppler Shift (Severe)",
+    "Faulty Handover Algorithm (Too Frequent)",
+    "Resource Allocation Bugs",
+    "High Network Congestion (Sudden Spike)"
+  ],
+  "missing_classes": [],
+  "accuracy": 0.7136563876651982,
+  "balanced_accuracy": 0.5722697756788666,
+  "macro_precision": 0.5849963045084996,
+  "macro_recall": 0.5722697756788665,
+  "macro_f1": 0.5574558916664181,
+  "weighted_f1": 0.7192385781418937,
+  "per_class": {
+    "Jamming": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 92
+    },
+    "Co-Channel Interference (Mild)": {
+      "precision": 0.05263157894736842,
+      "recall": 0.2,
+      "f1": 0.08333333333333333,
+      "support": 5
+    },
+    "Buffer Overflow (Gradual Buildup)": {
+      "precision": 0.2682926829268293,
+      "recall": 0.6875,
+      "f1": 0.38596491228070173,
+      "support": 16
+    },
+    "Co-Channel Interference (Severe)": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231,
+      "support": 7
+    },
+    "Antenna Failure": {
+      "precision": 0.5,
+      "recall": 0.5714285714285714,
+      "f1": 0.5333333333333333,
+      "support": 7
+    },
+    "Faulty RF Filters (Temporal)": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "support": 8
+    },
+    "High Network Congestion (Gradual Buildup)": {
+      "precision": 0.6666666666666666,
+      "recall": 0.2857142857142857,
+      "f1": 0.4,
+      "support": 49
+    },
+    "Doppler Shift (Severe)": {
+      "precision": 0.9473684210526315,
+      "recall": 1.0,
+      "f1": 0.972972972972973,
+      "support": 18
+    },
+    "Faulty Handover Algorithm (Too Frequent)": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "Resource Allocation Bugs": {
+      "precision": 1.0,
+      "recall": 0.8181818181818182,
+      "f1": 0.9,
+      "support": 11
+    },
+    "High Network Congestion (Sudden Spike)": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 11
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Jamming",
+      "Co-Channel Interference (Mild)",
+      "Buffer Overflow (Gradual Buildup)",
+      "Co-Channel Interference (Severe)",
+      "Antenna Failure",
+      "Faulty RF Filters (Temporal)",
+      "High Network Congestion (Gradual Buildup)",
+      "Doppler Shift (Severe)",
+      "Faulty Handover Algorithm (Too Frequent)",
+      "Resource Allocation Bugs",
+      "High Network Congestion (Sudden Spike)"
+    ],
+    "counts": [
+      [
+        92,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        30,
+        0,
+        0,
+        0,
+        14,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        9,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "most_frequent_confusions": [
+    {
+      "actual": "High Network Congestion (Gradual Buildup)",
+      "predicted": "Buffer Overflow (Gradual Buildup)",
+      "count": 30
+    },
+    {
+      "actual": "High Network Congestion (Sudden Spike)",
+      "predicted": "Co-Channel Interference (Mild)",
+      "count": 11
+    },
+    {
+      "actual": "Buffer Overflow (Gradual Buildup)",
+      "predicted": "High Network Congestion (Gradual Buildup)",
+      "count": 4
+    },
+    {
+      "actual": "Co-Channel Interference (Mild)",
+      "predicted": "Antenna Failure",
+      "count": 4
+    },
+    {
+      "actual": "High Network Congestion (Gradual Buildup)",
+      "predicted": "Co-Channel Interference (Mild)",
+      "count": 4
+    },
+    {
+      "actual": "Antenna Failure",
+      "predicted": "High Network Congestion (Gradual Buildup)",
+      "count": 3
+    },
+    {
+      "actual": "Faulty Handover Algorithm (Too Frequent)",
+      "predicted": "Co-Channel Interference (Mild)",
+      "count": 3
+    },
+    {
+      "actual": "Buffer Overflow (Gradual Buildup)",
+      "predicted": "Doppler Shift (Severe)",
+      "count": 1
+    },
+    {
+      "actual": "Co-Channel Interference (Severe)",
+      "predicted": "Faulty Handover Algorithm (Too Frequent)",
+      "count": 1
+    },
+    {
+      "actual": "Faulty RF Filters (Temporal)",
+      "predicted": "Faulty Handover Algorithm (Too Frequent)",
+      "count": 1
+    },
+    {
+      "actual": "High Network Congestion (Gradual Buildup)",
+      "predicted": "Faulty Handover Algorithm (Too Frequent)",
+      "count": 1
+    },
+    {
+      "actual": "Resource Allocation Bugs",
+      "predicted": "Faulty Handover Algorithm (Too Frequent)",
+      "count": 1
+    },
+    {
+      "actual": "Resource Allocation Bugs",
+      "predicted": "High Network Congestion (Sudden Spike)",
+      "count": 1
+    }
+  ]
+}
